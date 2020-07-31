@@ -49,3 +49,29 @@
 ```
 
 - [Custom alignment of text in itemized environment](https://tex.stackexchange.com/questions/147679/custom-alignment-of-text-in-itemized-environment)
+
+## ダミー文章を挿入したい
+
+### 英語：`lipsum`パッケージ
+
+```latex
+# preample
+\usepackage{lipsum}
+
+# document
+\lipsum[1-3]
+```
+
+### 日本語：`bxjalipsum`パッケージ
+
+```latex
+# preample
+\usepackage{bxjalipsum}
+
+# document
+\jalipsum{iroha}  # いろは
+\jalipsum{jugemu}  # 寿限無
+\jalipsum[1-33]{wagahai}  # 吾輩は猫である
+\jalipsum[1-4]{preamble}  # 憲法前文
+\jalipsum[1-4]{hatsukoi}  # 初恋
+```
