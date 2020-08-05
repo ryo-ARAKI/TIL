@@ -90,6 +90,8 @@
 
 - `inkscape --export-pdf=filename.pdf --export-area-drawing --export-latex filename.svg` PDF+LaTeX（テキスト情報）に変換
 
+### `jpegoptim --dest=compress/ -S300 hoge.jpg` `hoge.jpg`を300KBに圧縮して`./compress/`ディレクトリに保存
+
 ### `tar -czvf hoge.tgz hoge/` `hoge`/ ディレクトリ以下をgzip形式で圧縮
 
 - `tar` アーカイブをおこなう
