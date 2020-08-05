@@ -1,0 +1,102 @@
+# Linuxの（やや複雑な）コマンドチートシート
+
+- 前提：Linuxの一般的なコマンド（ `ls` `mv` `cp` `rm` `cd` ...）は理解しており，使えること
+  - 一般的なコマンドについては [Unix/Linux コマンドリファレンス](https://kanemotilevel.com/wp/gazou/unix.pdf) などを参照のこと
+- 目的：基本的なコマンドのオプションやパイプを使った組み合わせで構成されるやや複雑な（=いちいち覚えていられない）操作のチートシート
+
+## 一般的なLinuxマシン
+
+### `ls -lht`  細情報付きファイル一覧を，人間の読みやすい形式でのファイルサイズ及び時系列順で表示
+
+- `ls` 当該ディレクトリ内のファイルを一覧表示
+  - `-l` 長い形式で出力
+  - `-h` 人間の読みやすいファイルサイズ形式で表示 `--human-readable` の略
+  - `-t` ファイル更新順で表示
+- `ls`のその他オプション
+  - `-v` ファイル名を数字の「自然な」順で表示
+
+### `find ./ -type f | wc -l` 現ディレクトリ内のファイル数カウント
+
+- `find` ファイルやディレクトリの検索
+  - `./` 検索起点=現在いるディレクトリ． `/` ならルートディレクトリ． `/home/hoge/huga/` のように指定すれば任意のディレクトリ内を検索できる
+  - `-type f` 「ファイル」を検索． `-type d` でディレクトリを検索
+- `|` 上記コマンドで出力される「ファイル名の一覧」をパイプ
+- `wc` テキストorファイルの行数，単語数，バイト数を表示． `word count` の略
+  - `-l` 行数のみを表示 `--line` と同値
+
+### `find ./ -name "*.txt" | sort | xargs cp -v --backup=numbered -f -t text/` 現ディレクトリより下の階層から `*.txt` のファイルを抽出し， `text/` ディレクトリに連番のバックアップファイルを作成しつつコピー
+
+- 同名のファイルが `001/hoge.txt` ， `002/hoge.txt` ， `003/hoge.txt` のようにあるとき，
+  - `001/hoge.txt` -> `text/hoge.txt.~1~`
+  - `002/hoge.txt` -> `text/hoge.txt.~2~`
+  - `003/hoge.txt` -> `text/hoge.txt`
+  のようにまとめてくれる．`text/hoge.txt` を `text/hoge.txt.~3~` とリネームすれば元ディレクトリの連番とファイルの連番が対応する
+- `find` ファイルやディレクトリの検索
+  - `./` 検索起点=現在いるディレクトリ
+  - `-name "*.txt"` `*.txt`に一致するファイル名を検索
+- `| sort` `find`の検索結果を名前順にソート
+- `| xargs` ソートされた検索結果を引数に取る
+- `cp` ファイルのコピー
+  - `-v` 途中経過を表示する． `--verbose` と同値
+  - `--backup=numbered` 同名のファイルがあるとき，既存ファイルを末尾に番号をつけてバックアップ
+  - `-f` 強制的に上書きする． `--force` と同値
+  - `-t text/` `text` ディレクトリにコピーする． `--target-directory=text/` と同値
+
+### `rsync -n -arvt --exclude '*.bmp' user@remote_id:/remote/Dir/ /local/dir/` リモート（ `remote_id` ）にユーザー（ `user` ）でログインし， `/remote/Dir/` 以下の階層から `*bmp` 以外の拡張子のファイルを _ディレクトリ構造含めて_ ローカルの `local/dir/` にコピーする．
+
+- `rsync` ファイルやディレクトリ環境を同期する
+  - `-n` 試験モード． **実際にコピーする際はこのオプションを外す**
+  - `-a` アーカイブモード． `--archive` と同値
+  - `-r` ディレクトリを再帰的に処理． `--recursive` と同値
+  - `-v` 動作内容を表示． `--verbose` と同値
+  - `-t` タイムスタンプを保持． `--times` と同値
+  - `--exclude "*.bmp"` 拡張子 `bmp` を除外する
+  - `user@remote_id:/remote/Dir/` リモートマシンのアカウント名とマシン名，コピー元のディレクトリ
+  - `/local/dir/` ローカルのコピー先ディレクトリ
+
+### `du -m -d 1 | sort -rn | head -10` サイズの大きな（一階層までの）ディレクトリTop10を降順で表示
+
+- ホームディレクトリで実行すること
+- `du` ファイル・ディレクトリのサイズ（ディスク使用量）を表示
+  - `-m` メガバイト単位で表示
+    - `-h` human-readableな形式で表示，しかしこのとき，例えば `289M` -> `2.7G` のような順序での表示となってしまう...
+  - `-d 1` 測定する階層の深さを1に指定． `--max-depth=1` と同値
+- `|sort -rn` 降順でソート
+- `| head -10` 最初の10件を表示
+- `du -sch *` カレントディレクトリ直下のファイル・ディレクトリのディスク使用量と，それらの合計を表示
+  - `-s`	指定したディレクトリの合計のみ表示． `--summarize` と同値
+  - `-c` 全体の合計を表示． `--total` と同値
+- `du -bhc /path/*.dat | tail -n 1` 指定したディレクトリ内の条件に当てはまるファイルの合計サイズを表示
+  - `-b` 実際のサイズをバイト単位で表示． `--apparent-size` や `--block-size=1` と同値
+  - `tail -n 1` 末尾の一行（=合計のファイルサイズ）のみを表示
+
+### `sudo rm /var/lib/apt/lists/lock && sudo rm /var/lib/dpkg/lock` ロック状態になってしまった `dpkg` の解除
+
+- `apt` が動かないときに実行
+- **TODO** `apt` と `dpkg` の関係
+
+### `sync && sudo sysctl -w vm.drop_caches=3` メモリの開放
+
+- `sync` メモリのバッファをディスクに書き込む
+- `sysctl` カーネルパラメータを設定する
+  - `-w` 変数を指定したパラメータに変更する
+  - `vm.drop_caches=3` 1：ページキャッシュ，2：ダーティキャッシュとinode，3：ページキャッシュ，ダーティキャッシュとinodeを破棄する
+
+### `inkscape --export-pdf=filename.pdf --export-area-drawing --export-text-to-path filename.svg` inkspaceで作成した`svg`ファイルを，テキストをパスとしてPDFに変換
+
+- `inkscape --export-pdf=filename.pdf --export-area-drawing --export-latex filename.svg` PDF+LaTeX（テキスト情報）に変換
+
+### `tar -czvf hoge.tgz hoge/` `hoge`/ ディレクトリ以下をgzip形式で圧縮
+
+- `tar` アーカイブをおこなう
+  - `-c`新しいアーカイブを作成する． `--create` と同値
+  - `-z` ファイルをgzip形式で圧縮する． `--gzip` と同値
+  - `-v`ファイルの処理状況をターミナルに出力する． `--verbose` と同値
+  - `-f`アーカイブファイル名を指定する．
+- 解凍の際は `tar -xzvf hoge.tgz` でファイルを展開できる．
+  - `-x` ファイルを展開する． `--extract` ，あるいは `--get` と同値
+  - `-C /target/dir/` で展開先のディレクトリを指定
+
+### `pdftk original.pdf cat 1-5 output modified.pdf` PDFファイルの一部を切り出して保存
+
+### TODO:
