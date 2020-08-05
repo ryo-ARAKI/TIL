@@ -24,6 +24,10 @@
 - `wc` テキストorファイルの行数，単語数，バイト数を表示． `word count` の略
   - `-l` 行数のみを表示 `--line` と同値
 
+### `find ./ -name "*.png" | xargs -i cp {} ./hoge/` 現在いるディレクトリ以下の階層から`png`の拡張子のファイルを検索し，`./hoge/`以下にコピーする
+
+- 引数が二つあるため，`-i`オプションで`xargs`が渡す`stdin`の位置を指定する必要がある．
+
 ### `find ./ -name "*.txt" | sort | xargs cp -v --backup=numbered -f -t text/` 現ディレクトリより下の階層から `*.txt` のファイルを抽出し， `text/` ディレクトリに連番のバックアップファイルを作成しつつコピー
 
 - 同名のファイルが `001/hoge.txt` ， `002/hoge.txt` ， `003/hoge.txt` のようにあるとき，
