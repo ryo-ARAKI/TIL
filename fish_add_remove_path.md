@@ -2,7 +2,7 @@
 
 ## `PATH` の追加
 
-```
+```linux
 set -U fish_user_paths /usr/local/bin $fish_user_paths
 ```
 
@@ -10,7 +10,7 @@ set -U fish_user_paths /usr/local/bin $fish_user_paths
 
 ## `PATH` の削除
 
-```
+```linux
 echo $fish_user_paths | tr " " "\n" | nl
 set --erase --universal fish_user_paths[hoge]
 ```
