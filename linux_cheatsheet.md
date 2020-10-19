@@ -1,12 +1,12 @@
-# Linuxの（やや複雑な）コマンドチートシート
+# Linux の（やや複雑な）コマンドチートシート
 
-- 前提：Linuxの一般的なコマンド（ `ls` `mv` `cp` `rm` `cd` ...）は理解しており，使えること
+- 前提：Linux の一般的なコマンド（ `ls` `mv` `cp` `rm` `cd` ...）は理解しており，使えること
   - 一般的なコマンドについては [Unix/Linux コマンドリファレンス](https://kanemotilevel.com/wp/gazou/unix.pdf) などを参照のこと
 - 目的：基本的なコマンドのオプションやパイプを使った組み合わせで構成されるやや複雑な（=いちいち覚えていられない）操作のチートシート
 
-## 一般的なLinuxマシン
+## 一般的な Linux マシン
 
-### `ls -lht`  細情報付きファイル一覧を，人間の読みやすい形式でのファイルサイズ及び時系列順で表示
+### `ls -lht` 細情報付きファイル一覧を，人間の読みやすい形式でのファイルサイズ及び時系列順で表示
 
 - `ls` 当該ディレクトリ内のファイルを一覧表示
   - `-l` 長い形式で出力
@@ -21,7 +21,7 @@
   - `./` 検索起点=現在いるディレクトリ． `/` ならルートディレクトリ． `/home/hoge/huga/` のように指定すれば任意のディレクトリ内を検索できる
   - `-type f` 「ファイル」を検索． `-type d` でディレクトリを検索
 - `|` 上記コマンドで出力される「ファイル名の一覧」をパイプ
-- `wc` テキストorファイルの行数，単語数，バイト数を表示． `word count` の略
+- `wc` テキスト or ファイルの行数，単語数，バイト数を表示． `word count` の略
   - `-l` 行数のみを表示 `--line` と同値
 
 ### `find ./ -name "*.png" | xargs -i cp {} ./hoge/` 現在いるディレクトリ以下の階層から`png`の拡張子のファイルを検索し，`./hoge/`以下にコピーする
@@ -34,7 +34,7 @@
   - `001/hoge.txt` -> `text/hoge.txt.~1~`
   - `002/hoge.txt` -> `text/hoge.txt.~2~`
   - `003/hoge.txt` -> `text/hoge.txt`
-  のようにまとめてくれる．`text/hoge.txt` を `text/hoge.txt.~3~` とリネームすれば元ディレクトリの連番とファイルの連番が対応する
+    のようにまとめてくれる．`text/hoge.txt` を `text/hoge.txt.~3~` とリネームすれば元ディレクトリの連番とファイルの連番が対応する
 - `find` ファイルやディレクトリの検索
   - `./` 検索起点=現在いるディレクトリ
   - `-name "*.txt"` `*.txt`に一致するファイル名を検索
@@ -58,17 +58,17 @@
   - `user@remote_id:/remote/Dir/` リモートマシンのアカウント名とマシン名，コピー元のディレクトリ
   - `/local/dir/` ローカルのコピー先ディレクトリ
 
-### `du -m -d 1 | sort -rn | head -10` サイズの大きな（一階層までの）ディレクトリTop10を降順で表示
+### `du -m -d 1 | sort -rn | head -10` サイズの大きな（一階層までの）ディレクトリ Top10 を降順で表示
 
 - ホームディレクトリで実行すること
 - `du` ファイル・ディレクトリのサイズ（ディスク使用量）を表示
   - `-m` メガバイト単位で表示
-    - `-h` human-readableな形式で表示，しかしこのとき，例えば `289M` -> `2.7G` のような順序での表示となってしまう...
-  - `-d 1` 測定する階層の深さを1に指定． `--max-depth=1` と同値
+    - `-h` human-readable な形式で表示，しかしこのとき，例えば `289M` -> `2.7G` のような順序での表示となってしまう...
+  - `-d 1` 測定する階層の深さを 1 に指定． `--max-depth=1` と同値
 - `|sort -rn` 降順でソート
-- `| head -10` 最初の10件を表示
+- `| head -10` 最初の 10 件を表示
 - `du -sch *` カレントディレクトリ直下のファイル・ディレクトリのディスク使用量と，それらの合計を表示
-  - `-s`	指定したディレクトリの合計のみ表示． `--summarize` と同値
+  - `-s` 指定したディレクトリの合計のみ表示． `--summarize` と同値
   - `-c` 全体の合計を表示． `--total` と同値
 - `du -bhc /path/*.dat | tail -n 1` 指定したディレクトリ内の条件に当てはまるファイルの合計サイズを表示
   - `-b` 実際のサイズをバイト単位で表示． `--apparent-size` や `--block-size=1` と同値
@@ -84,26 +84,26 @@
 - `sync` メモリのバッファをディスクに書き込む
 - `sysctl` カーネルパラメータを設定する
   - `-w` 変数を指定したパラメータに変更する
-  - `vm.drop_caches=3` 1：ページキャッシュ，2：ダーティキャッシュとinode，3：ページキャッシュ，ダーティキャッシュとinodeを破棄する
+  - `vm.drop_caches=3` 1：ページキャッシュ，2：ダーティキャッシュと inode，3：ページキャッシュ，ダーティキャッシュと inode を破棄する
 
-### `inkscape --export-pdf=filename.pdf --export-area-drawing --export-text-to-path filename.svg` inkspaceで作成した`svg`ファイルを，テキストをパスとしてPDFに変換
+### `inkscape --export-pdf=filename.pdf --export-area-drawing --export-text-to-path filename.svg` inkspace で作成した`svg`ファイルを，テキストをパスとして PDF に変換
 
 - `inkscape --export-pdf=filename.pdf --export-area-drawing --export-latex filename.svg` PDF+LaTeX（テキスト情報）に変換
 
-### `jpegoptim --dest=compress/ -S300 hoge.jpg` `hoge.jpg`を300KBに圧縮して`./compress/`ディレクトリに保存
+### `jpegoptim --dest=compress/ -S300 hoge.jpg` `hoge.jpg`を 300KB に圧縮して`./compress/`ディレクトリに保存
 
-### `tar -czvf hoge.tgz hoge/` `hoge`/ ディレクトリ以下をgzip形式で圧縮
+### `tar -czvf hoge.tgz hoge/` `hoge`/ ディレクトリ以下を gzip 形式で圧縮
 
 - `tar` アーカイブをおこなう
   - `-c`新しいアーカイブを作成する． `--create` と同値
-  - `-z` ファイルをgzip形式で圧縮する． `--gzip` と同値
+  - `-z` ファイルを gzip 形式で圧縮する． `--gzip` と同値
   - `-v`ファイルの処理状況をターミナルに出力する． `--verbose` と同値
   - `-f`アーカイブファイル名を指定する．
 - 解凍の際は `tar -xzvf hoge.tgz` でファイルを展開できる．
   - `-x` ファイルを展開する． `--extract` ，あるいは `--get` と同値
   - `-C /target/dir/` で展開先のディレクトリを指定
 
-### `pdftk original.pdf cat 1-5 output modified.pdf` PDFファイルの一部を切り出して保存
+### `pdftk original.pdf cat 1-5 output modified.pdf` PDF ファイルの一部を切り出して保存
 
 ### `/bin/bash hoge` bash shell でプログラムを実行する
 
