@@ -105,4 +105,10 @@
 
 ### `pdftk original.pdf cat 1-5 output modified.pdf` PDFファイルの一部を切り出して保存
 
-### TODO:
+### `/bin/bash hoge` bash shell でプログラムを実行する
+
+- fish shell で実行すると
+  `The file hoge is marked as an executable but could not be run by the operating system.`
+  というエラーが出るとき， `/bin/bash` と指定して実行すれば良い
+
+### TODO
