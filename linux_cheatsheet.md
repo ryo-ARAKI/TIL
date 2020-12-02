@@ -111,4 +111,9 @@
   `The file hoge is marked as an executable but could not be run by the operating system.`
   というエラーが出るとき， `/bin/bash` と指定して実行すれば良い
 
+### `find ./ -type f -exec grep -H "hoge" {} \;` 現在のディレクトリ以下のファイルから"hoge"を検索して一覧を表示
+
+- `-H, --with-filename`
+  - 各マッチに対するファイル名を出力
+
 ### TODO
