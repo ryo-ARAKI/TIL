@@ -46,6 +46,13 @@
   - `-f` 強制的に上書きする． `--force` と同値
   - `-t text/` `text` ディレクトリにコピーする． `--target-directory=text/` と同値
 
+### `find . -name '*.png' | cpio -pdm /path/to/dest/` 現在いるディレクトリ以下の階層から `png` の拡張子ファイルを検索し， _階層を維持しつつ_ `/path/to/dest/` にコピーする
+
+- `cpio` アーカイブファイル{への，から}ファイル{の，への}コピーをおこなう
+  - `-p` コピーパスモード（ `--pass-through` ）
+  - `-d` 必要に応じてディレクトリを作成（ `--make-directories` ）
+  - `-m` コピーしたファイルの更新時刻をコピー元と揃える（ `--preserve-modification-time` ）
+
 ### `rsync -n -arvt --exclude '*.bmp' user@remote_id:/remote/Dir/ /local/dir/` リモート（ `remote_id` ）にユーザー（ `user` ）でログインし， `/remote/Dir/` 以下の階層から `*bmp` 以外の拡張子のファイルを _ディレクトリ構造含めて_ ローカルの `local/dir/` にコピーする．
 
 - `rsync` ファイルやディレクトリ環境を同期する
