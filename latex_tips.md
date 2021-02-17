@@ -114,7 +114,7 @@
 \end{empheq}
 ```
 
-### Beamerで目次の表示を制御したい
+## Beamerで目次の表示を制御したい
 
 - `\tableofcontents` に次のようなオプションを指定する
 
@@ -142,14 +142,14 @@
 
 - [Beamer: Highlighting subsubsections in TOC](https://tex.stackexchange.com/questions/231128/beamer-highlighting-subsubsections-in-toc)
 
-### `REVTeX` + `biblatex` で参考文献を管理している論文をAPSに投稿する
+## `REVTeX` + `biblatex` で参考文献を管理している論文をAPSに投稿する
 
-#### 前提
+### 前提
 
 - 本文を記述した `.tex` ファイルに文献情報を統合したい．
   - しかし， `biblatex` パッケージで生成される `.bbl` ファイルの形式が `bibtex` で生成されるものと異なるため， `.bbl` の内容をそのまま `.tex` にコピペするのではうまくいかない．
 
-#### 解決策
+### 解決策
 
 - StackExchangeの[Biblatex: submitting to a journal](https://tex.stackexchange.com/a/530638)を参考にする．
 
@@ -186,6 +186,6 @@
    また， `\printbibliography` を2. の手順で出力された `bibitem` 情報に置換する．
 4. 著者名のウムラウト記号など，細かな不備を解消する．
 
-#### コメント
+### コメント
 
-おそらく，これが最も簡便に（人の手で情報を入力したり修正したりせず） `biblatex` パッケージで管理している文献情報を `.tex` ファイルに統合してAPSのサーバ上でコンパイルできるようにする方法だと思われる．
+- おそらく，これが最も簡便に（人の手で情報を入力したり修正したりせず） `biblatex` パッケージで管理している文献情報を `.tex` ファイルに統合してAPSのサーバ上でコンパイルできるようにする方法だと思われる．
