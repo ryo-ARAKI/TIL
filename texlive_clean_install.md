@@ -1,4 +1,4 @@
-# Clean install TeXLive
+# TeXLiveをクリーンインストールする手順
 
 ## Remove old TeXLive
 

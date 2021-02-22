@@ -1,4 +1,4 @@
-# Tips on Gnuplot
+# Gnuplotの備忘録
 
 ## `every` command
 
