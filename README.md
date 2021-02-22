@@ -8,6 +8,8 @@ Memorandum of Today I Learned
   - F2PYのサンプルプログラム
 - fish_add_remove_path.md
   - fish shellにおける永続的な `PATH` の追加/削除
+- fortran_ifdef.f90
+  - #ifdef フラグのサンプルプログラム
 - gnuplot_install_without_sudo.md
   - サーバにsudo権限無しで gnuplot ver5.2.8 をインストールする
 - gnuplot_tips.md
