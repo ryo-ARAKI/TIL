@@ -100,7 +100,7 @@
   - 参考：[Why am I getting missing packages in Tex](https://askubuntu.com/a/936359)
   - また， `\uline{text}` だと下線が細すぎるが `{\def\ULthickness{1pt}\uline{text}}` のようにすれば太さを変更できる．
 
-### `empheq` 環境下で数式番号をまとめたい
+## `empheq` 環境下で数式番号をまとめたい
 
 - `empheq` 環境の `equation` オプションと `split` 環境を使う
 
