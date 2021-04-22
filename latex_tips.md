@@ -126,6 +126,10 @@
   - > I would recommend the `\intercal` symbol to produce a "T" which isn't so big.
   - > Some people use a superscripted \intercal for matrix transpose: A^\intercal. (See the May 2009 comp.text.tex thread, "raising math symbols", for suggestions about altering the height of the superscript.) \top, T, and \mathsf{T} are other popular choices.
 
+## Mathモード以外で上付き（下付き）文字を使いたい
+
+- `\textsuperscript{hoge}` ， `\textsubscript{huga}` を使う
+
 ## Beamerで目次の表示を制御したい
 
 - `\tableofcontents` に次のようなオプションを指定する
