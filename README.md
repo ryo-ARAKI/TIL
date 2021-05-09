@@ -10,6 +10,8 @@ Memorandum of Today I Learned
   - fish shellにおける永続的な `PATH` の追加/削除
 - `fortran_ifdef.f90`
   - #ifdef フラグのサンプルプログラム
+- `git_rename_remote_branch.md`
+  - gitでremote branchの名前を変更する手順
 - `gnuplot_install_without_sudo.md`
   - サーバにsudo権限無しで gnuplot ver5.2.8 をインストールする
 - `gnuplot_tips.md`
