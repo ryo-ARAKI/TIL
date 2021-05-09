@@ -12,3 +12,6 @@
    `$ git push origin -u <new_name>`
 4. 古い名前のリモートブランチを削除する
    `$ git push origin --delete <old_name>`
+
+- `<old_name>` で出していたプルリクエストは閉じられるので， `<new_name>` で再度開く必要がある．
+
