@@ -123,4 +123,10 @@
 - `-H, --with-filename`
   - 各マッチに対するファイル名を出力
 
+### `ffmpeg -f image2 -r 5 -i fig%3d.jpg -vb 6M test.avi` 連番画像から高画質の動画を作成
+
+- `ffmpeg`
+  - `-r` フレームレート(FPS)を指定
+  - `-vb` video bitrateを設定
+
 ### TODO
