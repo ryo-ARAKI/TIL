@@ -133,6 +133,7 @@
 - `\intercal` 記号がよい
 
 ```latex
+\usepackage{amssymb}
 \vb*{v}^\intercal
 ```
 
