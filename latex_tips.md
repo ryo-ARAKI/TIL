@@ -173,6 +173,27 @@
 
 - [Beamer: Highlighting subsubsections in TOC](https://tex.stackexchange.com/questions/231128/beamer-highlighting-subsubsections-in-toc)
 
+## Beamerでitemize環境にアニメーションをつけたい
+
+```latex
+\begin{itemize}
+  \item hoge
+  \pause
+  \item huga
+\end{itemize}
+```
+
+のようにするとレイアウトが崩れる場合がある．
+
+```latex
+\begin{itemize}
+  \item hoge
+  \item<2-> huga
+\end{itemize}
+```
+
+のように書けばよい．
+
 ## `REVTeX` + `biblatex` で参考文献を管理している論文をAPSに投稿する
 
 ### 前提
