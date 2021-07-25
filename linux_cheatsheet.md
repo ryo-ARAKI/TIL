@@ -129,4 +129,15 @@
   - `-r` フレームレート(FPS)を指定
   - `-vb` video bitrateを設定
 
+### `gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/printer -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output.pdf input.pdf` PDF中の画像サイズを縮小してファイルサイズを小さくする
+
+- `gs` ghostscript
+  - `-sDEVICE=pdfwrite`
+  - `-dCompatibilityLevel=1.4`
+  - `-dPDFSETTINGS=/printer` PDFサイズの指定
+    - `/screen` → `/ebook` → ``/printer` → `/prepress` → `/default` の順に画質が良くなる（ファイルサイズが大きくなる）
+  - `-dNOPAUSE`
+  - `-dQUIET`
+  - `-dBATCH`
+
 ### TODO
