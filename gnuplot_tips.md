@@ -14,3 +14,23 @@ plot "data.dat" every i:I:s:S:e:E u 1:2
 - `E`：終了ブロック
 
 - 参考： [GNUPLOTに関するメモ](http://www.kusastro.kyoto-u.ac.jp/~moritani/etc/memo/gnuplot_memo.html)
+
+## 描画範囲の指定
+
+例えば
+
+```dat
+# 時刻 データ
+0.0 1.0
+0.1 2.0
+0.2 3.0
+...
+```
+
+というデータに対し，時刻>100の範囲だけプロットしたいときは
+
+```gnuplot
+plot 1:($1>100?$2:1/0)
+```
+
+でできる．
