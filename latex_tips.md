@@ -241,3 +241,14 @@
 ### コメント
 
 - おそらく，これが最も簡便に（人の手で情報を入力したり修正したりせず） `biblatex` パッケージで管理している文献情報を `.tex` ファイルに統合してAPSのサーバ上でコンパイルできるようにする方法だと思われる．
+
+## Beamerで図を入れ替えるなどのアニメーションを入れているとき， `handout` にもそれを反映したい
+
+```latex
+\begin{frame}<handout:1-2>[label=foo]
+  foo\onslide<all:2>bar
+\end{frame}
+```
+
+のように書くと， `handout` でも2枚のスライドが作成される．
+- 参考：[Beamer handout mode: explicitly printing "half-way" frames](https://tex.stackexchange.com/a/184136)
