@@ -20,6 +20,7 @@ sudo apt autoremove
 ## Install latest TeXLive manually
 
 - [TeX Live のインストール](https://texwiki.texjp.org/?Linux#texliveinstall)
+- `*` はTeXLiveのバージョン（西暦）を示していることに注意する
 
 ```bash
 cd ~/Downloads/
