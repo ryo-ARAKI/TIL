@@ -36,7 +36,7 @@
 \setcounter{subfigure}{0}
 ```
 
-## `itemize`環境内でテキストを揃えたい
+## `itemize`環境内でテキストを揃える
 
 - `makebox`を使う
 
@@ -50,7 +50,7 @@
 
 - [Custom alignment of text in itemized environment](https://tex.stackexchange.com/questions/147679/custom-alignment-of-text-in-itemized-environment)
 
-## ダミー文章や図を挿入したい
+## ダミー文章や図を挿入する
 
 ### 英語：[lipsum](https://www.ctan.org/pkg/lipsum)パッケージ
 
@@ -83,7 +83,7 @@
 \includegraphics[width=0.6\textwidth]{example-image-16x9}
 ```
 
-## `\underline{}` 中で改行できない
+## `\underline{}` 中で改行する
 
 - 代替パッケージを使う：[下線に関するマクロ比較](http://www9.oninet.ne.jp/ohishi/tex/library/underline.pdf)
 
@@ -100,7 +100,7 @@
   - 参考：[Why am I getting missing packages in Tex](https://askubuntu.com/a/936359)
   - また， `\uline{text}` だと下線が細すぎるが `{\def\ULthickness{1pt}\uline{text}}` のようにすれば太さを変更できる．
 
-## `empheq` 環境下で数式番号をまとめたい
+## `empheq` 環境下で数式番号をまとめる
 
 - `empheq` 環境の `equation` オプションと `split` 環境を使う
 
@@ -141,11 +141,11 @@
   - > I would recommend the `\intercal` symbol to produce a "T" which isn't so big.
   - > Some people use a superscripted \intercal for matrix transpose: A^\intercal. (See the May 2009 comp.text.tex thread, "raising math symbols", for suggestions about altering the height of the superscript.) \top, T, and \mathsf{T} are other popular choices.
 
-## Mathモード以外で上付き（下付き）文字を使いたい
+## Mathモード以外で上付き（下付き）文字を使う
 
 - `\textsuperscript{hoge}` ， `\textsubscript{huga}` を使う
 
-## Beamerで目次の表示を制御したい
+## Beamerで目次の表示を制御する
 
 - `\tableofcontents` に次のようなオプションを指定する
 
@@ -173,7 +173,7 @@
 
 - [Beamer: Highlighting subsubsections in TOC](https://tex.stackexchange.com/questions/231128/beamer-highlighting-subsubsections-in-toc)
 
-## Beamerでitemize環境にアニメーションをつけたい
+## Beamerでitemize環境にアニメーションをつける
 
 ```latex
 \begin{itemize}
@@ -242,7 +242,7 @@
 
 - おそらく，これが最も簡便に（人の手で情報を入力したり修正したりせず） `biblatex` パッケージで管理している文献情報を `.tex` ファイルに統合してAPSのサーバ上でコンパイルできるようにする方法だと思われる．
 
-## Beamerで図を入れ替えるなどのアニメーションを入れているとき， `handout` にもそれを反映したい
+## Beamerで図を入れ替えるなどのアニメーションを入れているとき， `handout` にもそれを反映する
 
 ```latex
 \begin{frame}<handout:1-2>[label=foo]
@@ -254,7 +254,7 @@
 
 - 参考：[Beamer handout mode: explicitly printing "half-way" frames](https://tex.stackexchange.com/a/184136)
 
-## Beamerの `itemize` 環境中で一部だけ異なるbulletを使いたい
+## Beamerの `itemize` 環境中で一部だけ異なるbulletを使う
 
 プリアンプルで
 
@@ -274,7 +274,7 @@
 
 - 参考：[beamer: change individual bullet color in itemize list](https://tex.stackexchange.com/a/14366)
 
-## `underbrace` 環境中で改行したい
+## `underbrace` 環境中で改行する
 
 `amsmath` パッケージの `substack` コマンドを使う
 
@@ -295,7 +295,7 @@
 
 `\ref` の代わりに `\eqref` コマンドを使うと括弧を手入力する必要がなく，便利である．
 
-## LaTeXdiffとgitの連携
+## LaTeXdiffとgitを連携する
 
 ```bash
 latexdiff-vc -e utf8 -t CFONT --flatten --math-markup=2 --git --force -r HEAD^ main.tex
