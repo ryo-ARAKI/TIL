@@ -313,3 +313,9 @@ latexdiff-vc -e utf8 -t CFONT --flatten --math-markup=2 --git --force -r HEAD^ m
   - [Overleaf: Using Latexdiff For Marking Changes To Tex Documents](https://www.overleaf.com/learn/latex/Articles/Using_Latexdiff_For_Marking_Changes_To_Tex_Documents)
   - [にっき♪：latexdiff](<http://abenori.blogspot.com/2016/06/latexdiff.html>
   - [Gitで管理しているLaTeXのdiffをpdfで見る(TeXLive2015版)](https://nekketsuuu.github.io/entries/2017/01/27/latexdiff-vc.html)
+
+## 文章幅と同じ横線を引く
+
+```latex
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}
+```
