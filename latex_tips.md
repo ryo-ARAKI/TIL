@@ -114,6 +114,15 @@
 \end{empheq}
 ```
 
+- `begin{alignedat` 環境を使う
+
+```latex
+\begin{empheq}[left={\vb*{f} = \empheqlbrack}]{equation}\begin{alignedat}{3}
+  &\qty[\pi R^2]^{-1} &\quad &r \le R \\
+  &\quad 0 &\quad &\text{else}
+\end{alignedat}\end{empheq}
+```
+
 ## aligned環境下で長い方程式を改行する
 
 - 統合を揃えつつ長い式を改行して適切にスペーシングするには `quad` を使う
