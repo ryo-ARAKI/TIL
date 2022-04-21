@@ -114,7 +114,7 @@
 \end{empheq}
 ```
 
-- `begin{alignedat` 環境を使う
+- さらに複数ヶ所でalignしたいとき： `begin{alignedat}` 環境を使う
 
 ```latex
 \begin{empheq}[left={\vb*{f} = \empheqlbrack}]{equation}\begin{alignedat}{3}
@@ -122,6 +122,8 @@
   &\quad 0 &\quad &\text{else}
 \end{alignedat}\end{empheq}
 ```
+
+- 参考：[Single equation number for `empheq`](https://tex.stackexchange.com/a/570363)
 
 ## aligned環境下で長い方程式を改行する
 
