@@ -1,6 +1,6 @@
 # Gnuplotの備忘録
 
-## `every` command
+## データを間引いて描画する
 
 ```gnuplot
 plot "data.dat" every i:I:s:S:e:E u 1:2
@@ -15,7 +15,7 @@ plot "data.dat" every i:I:s:S:e:E u 1:2
 
 - 参考： [GNUPLOTに関するメモ](http://www.kusastro.kyoto-u.ac.jp/~moritani/etc/memo/gnuplot_memo.html)
 
-## 描画範囲の指定
+## 描画範囲を指定する
 
 例えば
 
@@ -35,13 +35,13 @@ plot 1:($1>100?$2:1/0)
 
 でできる．
 
-## 反例を前面に出力したい
+## 凡例を前面に出力する
 
 ```gnuplot
 set key opaque
 ```
 
-## `.gp` スクリプトで描画したグラフを表示し続けたい
+## `.gp` スクリプトで描画したグラフを表示し続ける
 
 スクリプト末尾に以下のように書けば良い
 
