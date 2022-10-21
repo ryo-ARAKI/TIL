@@ -149,4 +149,14 @@
 
 ### `screen -rd ID` アタッチ済みのセッションに再接続する
 
+### `pip3 list --outdated | grep -v '^\-e' | cut -d = -f 1 | xargs -n1 pip3 install -U` python のパッケージをすべて最新版に更新する
+
+- ` --format=freeze` オプションをつけるとエラーが出る
+
+  ```
+  ERROR: List format 'freeze' can not be used with the --outdated option.
+  Defaulting to user installation because normal site-packages is not writeable
+  ERROR: You must give at least one requirement to install (see "pip help install")
+  ```
+
 ### TODO
