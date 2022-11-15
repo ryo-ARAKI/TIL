@@ -256,7 +256,7 @@
 ## Beamerで図を入れ替えるなどのアニメーションを入れているとき， `handout` にもそれを反映する
 
 ```latex
-\begin{frame}<handout:1-2>[label=foo]
+\begin{frame}<handout:1-2>{Slide title}
   foo\onslide<all:2>bar
 \end{frame}
 ```
