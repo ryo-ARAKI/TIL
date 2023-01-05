@@ -81,6 +81,12 @@
   - `-b` 実際のサイズをバイト単位で表示． `--apparent-size` や `--block-size=1` と同値
   - `tail -n 1` 末尾の一行（=合計のファイルサイズ）のみを表示
 
+### `du -h -d 1 | sort -k 2` 同じ階層にあるディレクトリのサイズ一覧をディレクトリ名でソート
+
+- `sort -k 2`
+  - 2番目の引数（=ディレクトリ名）でソート
+
+
 ### `sudo rm /var/lib/apt/lists/lock && sudo rm /var/lib/dpkg/lock` ロック状態になってしまった `dpkg` の解除
 
 - `apt` が動かないときに実行
