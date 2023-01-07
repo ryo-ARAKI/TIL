@@ -1,4 +1,4 @@
-# `siunitx`を使った単位付き数値を math 環境で使う際の最適解
+# `siunitx` を使った単位付き数値を `math` 環境で使う際の最適解
 
 ```latex
 \SI{9.81}{\meter/\second^2}

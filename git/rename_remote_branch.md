@@ -1,4 +1,4 @@
-# gitのremote branchの名前を変える
+# Remote branchの名前を変える
 
 - 参考：[How To Rename a Local and Remote Git Branch](https://linuxize.com/post/how-to-rename-local-and-remote-git-branch/)
 

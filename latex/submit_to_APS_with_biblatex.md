@@ -1,4 +1,4 @@
-# `REVTeX` + `biblatex` で参考文献を管理している論文をAPSに投稿する
+# `REVTeX` + `biblatex` で参考文献を管理している論文を APS に投稿する
 
 ## 前提
 
