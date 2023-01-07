@@ -25,7 +25,7 @@ Memorandum of Today I Learned
 - [`gnuplot_install_without_sudo.md`](https://github.com/ryo-ARAKI/TIL/blob/master/gnuplot_install_without_sudo.md)
   - サーバに sudo 権限無しで gnuplot ver5.2.8 をインストールする
 
-## Julia
+## [Julia](https://github.com/ryo-ARAKI/TIL/blob/master/julia/)
 
 - [`julia_package_list_for_physics_simulation.md`](https://github.com/ryo-ARAKI/TIL/blob/master/julia_package_list_for_physics_simulation.md)
   - 物理シミュレーション/数値計算に役立つ Julia のパッケージリスト
