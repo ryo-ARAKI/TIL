@@ -4,6 +4,43 @@ Memorandum of Today I Learned
 
 今日学んだこと（Today I Learned TIL）のメモ
 
+## テンプレート/設定ファイル
+
+<details>
+<summary>ファイル一覧</summary>
+
+Gist で管理している各種設定ファイルやテンプレートのリンクをまとめる．
+
+- [LaTeX template](https://gist.github.com/ryo-ARAKI/9aa9ce4f0fab42a758e1370ad1eb4487)
+  - LaTeX のテンプレート
+  - [latex_template.tex](https://gist.github.com/ryo-ARAKI/9aa9ce4f0fab42a758e1370ad1eb4487#file-latex_template-tex) ：和文のテンプレート
+  - [beamer_template.tex](https://gist.github.com/ryo-ARAKI/9aa9ce4f0fab42a758e1370ad1eb4487#file-beamer_template-tex) ：スライドのテンプレート
+  - [beamer_template_poster.tex](https://gist.github.com/ryo-ARAKI/9aa9ce4f0fab42a758e1370ad1eb4487#file-beamer_template_poster-tex) ：ポスターのテンプレート
+  - [beamer_template_flash_talk.tex](https://gist.github.com/ryo-ARAKI/9aa9ce4f0fab42a758e1370ad1eb4487#file-beamer_template_flash_talk-tex) ：フラッシュトークのテンプレート
+  - [revtex_preamble.tex](https://gist.github.com/ryo-ARAKI/9aa9ce4f0fab42a758e1370ad1eb4487#file-revtex_preamble-tex) ：REVTeX のプリアンブルに追加するコマンド群
+  - [standalone_figure.tex](https://gist.github.com/ryo-ARAKI/9aa9ce4f0fab42a758e1370ad1eb4487#file-standalone_figure-tex) ：TikZ を用いたスタンドアロン図のテンプレート
+- [config.fish](https://gist.github.com/ryo-ARAKI/9d5e85d7be10863d515850b2ce2182e3)
+  - [fish shell](https://fishshell.com/) の設定ファイル
+- [LaTeX `.sty`](https://gist.github.com/ryo-ARAKI/c4f55e2c4c57a5997700160cc6ea55df)
+  - LaTeX の設定ファイル
+  - [mystyle.sty](https://gist.github.com/ryo-ARAKI/c4f55e2c4c57a5997700160cc6ea55df#file-mystyle-sty)
+  - [mystyle_jpn.sty](https://gist.github.com/ryo-ARAKI/c4f55e2c4c57a5997700160cc6ea55df#file-mystyle_jpn-sty) ：和文用設定ファイル
+  - [mystyle_beamer.sty](https://gist.github.com/ryo-ARAKI/c4f55e2c4c57a5997700160cc6ea55df#file-mystyle_beamer-sty) ：Beamer 用設定ファイル
+  - [mystyle_beamer_jpn.sty](https://gist.github.com/ryo-ARAKI/c4f55e2c4c57a5997700160cc6ea55df#file-mystyle_beamer_jpn-sty) ：和文 Beamer 用設定ファイル
+- [.screenrc](https://gist.github.com/ryo-ARAKI/07923755368e1f4ee0f67778a1cf2bca)
+  - ターミナルエミュレーションソフトである screen の設定ファイル
+- [starship.toml](https://gist.github.com/ryo-ARAKI/48a11585299f9032fa4bda60c9bba593)
+  - ターミナルのプロンプトを装飾してくれる [Starship](https://starship.rs/) の設定ファイル
+- [config](https://gist.github.com/ryo-ARAKI/f4031daf4d4c388838b123705aee8893)
+  - ターミナルエミュレータである [Terminator](https://gnome-terminator.org/) の設定ファイル
+- [.vimrc](https://gist.github.com/ryo-ARAKI/a9e64763c1f7d6eb1e210cb13388fd43)
+  - vim の設定ファイル
+- [.xbindkeysrc](https://gist.github.com/ryo-ARAKI/b17adac7419087a8ae821ebd1b30cd81)
+  - 多ボタンマウスの Linux 用設定ファイル
+  - Logitech MX Master 2S
+
+</details>
+
 ## [Beamer](https://github.com/ryo-ARAKI/TIL/tree/master/beamer)
 
 <details>
