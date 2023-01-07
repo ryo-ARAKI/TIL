@@ -45,7 +45,7 @@ Memorandum of Today I Learned
 - [`tikz_tutorial.md`](https://github.com/ryo-ARAKI/TIL/blob/master/tikz_tutorial.md)
   - Tikz の備忘録
 
-## Linux
+## [Linux](https://github.com/ryo-ARAKI/TIL/blob/master/linux/)
 
 - [`linux_cheatsheet.md`](https://github.com/ryo-ARAKI/TIL/blob/master/linux_cheatsheet.md)
   - Linux の（やや複雑な）コマンドチートシート
