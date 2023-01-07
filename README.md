@@ -13,7 +13,7 @@ Memorandum of Today I Learned
 - [`f2py.f90`](https://github.com/ryo-ARAKI/TIL/blob/master/fortran/f2py.f90), [`f2py.py`](https://github.com/ryo-ARAKI/TIL/blob/master/fortran/f2py.py)
   - F2PY のサンプルプログラム
 
-## Git
+## [Git](https://github.com/ryo-ARAKI/TIL/blob/master/git/)
 
 - [`git_rename_remote_branch.md`](https://github.com/ryo-ARAKI/TIL/blob/master/git_rename_remote_branch.md)
   - git で remote branch の名前を変更する手順
