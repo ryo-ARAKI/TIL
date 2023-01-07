@@ -20,10 +20,8 @@ Memorandum of Today I Learned
 - [`git_subdirectory_as_new_repository.md`](https://github.com/ryo-ARAKI/TIL/blob/master/git_subdirectory_as_new_repository.md)
   - git であるリポジトリのサブディレクトリを（履歴を維持しつつ）新しいリポジトリとして切り出す手順
 
-## Gnuplot
+## [Gnuplot](https://github.com/ryo-ARAKI/TIL/blob/master/gnuplot/)
 
-- [`gnuplot_tips.md`](https://github.com/ryo-ARAKI/TIL/blob/master/gnuplot_tips.md)
-  - Gnuplot の備忘録
 - [`gnuplot_install_without_sudo.md`](https://github.com/ryo-ARAKI/TIL/blob/master/gnuplot_install_without_sudo.md)
   - サーバに sudo 権限無しで gnuplot ver5.2.8 をインストールする
 
