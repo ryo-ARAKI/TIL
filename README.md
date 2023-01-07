@@ -4,25 +4,25 @@ Memorandum of Today I Learned
 
 今日学んだこと（Today I Learned TIL）のメモ
 
-## [Beamer](https://github.com/ryo-ARAKI/TIL/blob/master/beamer/)
+## [Beamer]()
 
 - [`animation_itemize.md`]()
 - [`animation_on_handout.md`]()
 - [`customise_toc.md`]()
 - [`temporarily_different_bullet_for_itemize.md`]()
 
-## [Fortran](https://github.com/ryo-ARAKI/TIL/blob/master/fortran/)
+## [Fortran]()
 
 - [`f2py.f90`]()
 - [`f2py.py`]()
 - [`ifdef.f90`]()
 
-## [Git](https://github.com/ryo-ARAKI/TIL/blob/master/git/)
+## [Git]()
 
 - [`extract_subdirectory_as_new_repository.md`]()
 - [`rename_remote_branch.md`]()
 
-## [Gnuplot](https://github.com/ryo-ARAKI/TIL/blob/master/gnuplot/)
+## [Gnuplot]()
 
 - [`decimate_data.md`]()
 - [`do_not_plot_0_data.md`]()
@@ -32,13 +32,13 @@ Memorandum of Today I Learned
 - [`print_key_in_front.md`]()
 - [`set_plot_range.md`]()
 
-## [Julia](https://github.com/ryo-ARAKI/TIL/blob/master/julia/)
+## [Julia]()
 
 - [`Unitful.jl`]()
 - [`package_list_for_physics_simulation.md`]()
 
 
-## [LaTeX](https://github.com/ryo-ARAKI/TIL/blob/master/latex/)
+## [LaTeX]()
 
 - [`align_text_inside_itemize.md`]()
 - [`biblatex_suppress_issue_inside_parthensis.md`]()
@@ -61,13 +61,13 @@ Memorandum of Today I Learned
 - [`tikz_tutorial.md`]()
 - [`transpose_symbol.md`]()
 
-## [Linux](https://github.com/ryo-ARAKI/TIL/blob/master/linux/)
+## [Linux]()
 
 - [`command_cheatsheet.md`]()
 - [`fish_add_remove_path.md`]()
 - [`shell_script_tips.md`]()
 
-## [Python](https://github.com/ryo-ARAKI/TIL/blob/master/python/)
+## [Python]()
 
 - [`lineplot_with_arrow_annotation.py`]()
 - [`maintain_same_margin_for_different_label.md`]()
