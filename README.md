@@ -36,6 +36,8 @@ Memorandum of Today I Learned
 
 - [`latex_tips.md`](https://github.com/ryo-ARAKI/TIL/blob/master/latex_tips.md)
   - LaTeX の Tips や備忘録
+- [`beamer_tips.md`](https://github.com/ryo-ARAKI/TIL/blob/master/beamer_tips.md)
+  - Beamer の Tips や備忘録
 - [`texlive_clean_install.md`](https://github.com/ryo-ARAKI/TIL/blob/master/texlive_clean_install.md)
   - TeXLive をクリーンインストールする手順
 - [`tikz_tutorial.md`](https://github.com/ryo-ARAKI/TIL/blob/master/tikz_tutorial.md)
