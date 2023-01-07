@@ -135,8 +135,10 @@ Memorandum of Today I Learned
   - Linux の（やや複雑な）コマンドチートシート
 - [`fish_add_remove_path.md`](https://github.com/ryo-ARAKI/TIL/blob/master/linux/fish_add_remove_path.md)
   - fish shell における永続的な `PATH` の追加/削除
-- [`shell_script_tips.md`](https://github.com/ryo-ARAKI/TIL/blob/master/linux/shell_script_tips.md)
-  - Shell script の Tips や備忘録
+- [`shell_interactive.md`](https://github.com/ryo-ARAKI/TIL/blob/master/linux/shell_interactive.md)
+  - Yes/No の選択に応じた対話的実行
+- [`shell_iteration.md`](https://github.com/ryo-ARAKI/TIL/blob/master/linux/shell_iteration.md)
+  - 複数のファイルに対する繰り返し処理
 
 </details>
 
