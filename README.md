@@ -25,9 +25,9 @@ Memorandum of Today I Learned
 <details>
 <summary>ファイル一覧</summary>
 
-- [`f2py.f90`](https://github.com/ryo-ARAKI/TIL/blob/master/fortran/f2py.f90)と[`f2py.py`](https://github.com/ryo-ARAKI/TIL/blob/master/fortran/f2py.py)
+- [f2py.f90](https://github.com/ryo-ARAKI/TIL/blob/master/fortran/f2py.f90)と[f2py.py](https://github.com/ryo-ARAKI/TIL/blob/master/fortran/f2py.py)
   - Fortran と Python を連携する F2PY のサンプルプログラム
-- [`ifdef.f90`](https://github.com/ryo-ARAKI/TIL/blob/master/fortran/ifdef.f90)
+- [ifdef.f90](https://github.com/ryo-ARAKI/TIL/blob/master/fortran/ifdef.f90)
   - `#ifdef` フラグのサンプルプログラム
 
 </details>
