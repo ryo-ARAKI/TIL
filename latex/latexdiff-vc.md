@@ -1,4 +1,4 @@
-# `LaTeXdiff` と `git` を連携する
+# LaTeXdiff と git を連携する
 
 ```bash
 latexdiff-vc -e utf8 -t CFONT --flatten --math-markup=2 --git --force -r HEAD^ main.tex

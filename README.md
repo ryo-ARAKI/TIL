@@ -12,7 +12,7 @@ Memorandum of Today I Learned
 - [`animation_itemize.md`](https://github.com/ryo-ARAKI/TIL/blob/master/beamer/animation_itemize.md)
   - `itemize` 環境にアニメーションをつける
 - [`animation_on_handout.md`](https://github.com/ryo-ARAKI/TIL/blob/master/beamer/animation_on_handout.md)
-  - アニメーションを `handout` に反映する
+  - アニメーションを handout に反映する
 - [`customise_toc.md`](https://github.com/ryo-ARAKI/TIL/blob/master/beamer/customise_toc.md)
   - 目次の表示を制御する
 - [`temporarily_different_bullet_for_itemize.md`](https://github.com/ryo-ARAKI/TIL/blob/master/beamer/temporarily_different_bullet_for_itemize.md)
@@ -26,7 +26,7 @@ Memorandum of Today I Learned
 <summary>ファイル一覧</summary>
 
 - [`f2py.f90`](https://github.com/ryo-ARAKI/TIL/blob/master/fortran/f2py.f90)と[`f2py.py`](https://github.com/ryo-ARAKI/TIL/blob/master/fortran/f2py.py)
-  - Fortran と Python を連携する `F2PY` のサンプルプログラム
+  - Fortran と Python を連携する F2PY のサンプルプログラム
 - [`ifdef.f90`](https://github.com/ryo-ARAKI/TIL/blob/master/fortran/ifdef.f90)
   - `#ifdef` フラグのサンプルプログラム
 
@@ -86,7 +86,7 @@ Memorandum of Today I Learned
 - [`align_text_inside_itemize.md`](https://github.com/ryo-ARAKI/TIL/blob/master/latex/align_text_inside_itemize.md)
   - `itemize` 環境内でテキストを揃える
 - [`biblatex_suppress_issue_inside_parthensis.md`](https://github.com/ryo-ARAKI/TIL/blob/master/latex/biblatex_suppress_issue_inside_parthensis.md)
-  - `biblatex` で出版年の括弧に `issue` の情報が入ってしまうのを抑制する
+  - BibLaTeX で出版年の括弧に `issue` の情報が入ってしまうのを抑制する
 - [`breakline_inside_underbrace.md`](https://github.com/ryo-ARAKI/TIL/blob/master/latex/breakline_inside_underbrace.md)
   - `underbrace` 環境中で改行する
 - [`breakline_inside_underline.md`](https://github.com/ryo-ARAKI/TIL/blob/master/latex/breakline_inside_underline.md)
@@ -102,15 +102,15 @@ Memorandum of Today I Learned
 - [`fix_underbrace.md`](https://github.com/ryo-ARAKI/TIL/blob/master/latex/fix_underbrace.md)
   - `\underbrace` の表示がおかしい
 - [`latexdiff-vc.md`](https://github.com/ryo-ARAKI/TIL/blob/master/latex/latexdiff-vc.md)
-  - `LaTeXdiff` と `git` を連携する
+  - LaTeXdiff と git を連携する
 - [`refer_equations_with_eqref.md`](https://github.com/ryo-ARAKI/TIL/blob/master/latex/refer_equations_with_eqref.md)
   - `\eqref` で数式を参照する
 - [`single_number_for_multi_line_equations.md`](https://github.com/ryo-ARAKI/TIL/blob/master/latex/single_number_for_multi_line_equations.md)
   - `empheq` 環境下で数式番号をまとめる
 - [`siunitx.md`](https://github.com/ryo-ARAKI/TIL/blob/master/latex/siunitx.md)
-  - `siunitx` を使った単位付き数値を `math` 環境で使う際の最適解
+  - siunitx を使った単位付き数値を math 環境で使う際の最適解
 - [`submit_to_APS_with_biblatex.md`](https://github.com/ryo-ARAKI/TIL/blob/master/latex/submit_to_APS_with_biblatex.md)
-  - `REVTeX` + `biblatex` で参考文献を管理している論文を APS に投稿する
+  - REVTeX + BibLaTeX で参考文献を管理している論文を APS に投稿する
 - [`submit_to_arXiv_with_jfm.md`](https://github.com/ryo-ARAKI/TIL/blob/master/latex/submit_to_arXiv_with_jfm.md)
   - `jfm.cls` を使って arXiv にプレプリントを投稿する際の注意点
 - [`super_sub_script_in_text.md`](https://github.com/ryo-ARAKI/TIL/blob/master/latex/super_sub_script_in_text.md)
@@ -120,7 +120,7 @@ Memorandum of Today I Learned
 - [`texlive_clean_install.md`](https://github.com/ryo-ARAKI/TIL/blob/master/latex/texlive_clean_install.md)
   - TeXLive をクリーンインストールする手順
 - [`tikz_tutorial.md`](https://github.com/ryo-ARAKI/TIL/blob/master/latex/tikz_tutorial.md)
-  - `TikZ` の備忘録
+  - TikZ の備忘録
 - [`transpose_symbol.md`](https://github.com/ryo-ARAKI/TIL/blob/master/latex/transpose_symbol.md)
   - 行列，ベクトルの転置（transpose）をどう表記するか？
 
@@ -148,17 +148,17 @@ Memorandum of Today I Learned
 <summary>ファイル一覧</summary>
 
 - [`lineplot_with_arrow_annotation.py`](https://github.com/ryo-ARAKI/TIL/blob/master/python/lineplot_with_arrow_annotation.py)
-  - `Matplotlib` の `plt.plot` に矢印のアノーテーションをつけるサンプルプログラム
+  - Matplotlib の `plt.plot` に矢印のアノーテーションをつけるサンプルプログラム
 - [`maintain_same_margin_for_different_label.md`](https://github.com/ryo-ARAKI/TIL/blob/master/python/maintain_same_margin_for_different_label.md)
   - 異なる軸ラベルに対して同一のプロット領域を確保する
 - [`matplotlib_bool_mask.py`](https://github.com/ryo-ARAKI/TIL/blob/master/python/matplotlib_bool_mask.py)
-  - `Matplotlib` の `plot` で，boolean array を用いてグラフの一部だけを強調するサンプルプログラム
+  - Matplotlib の `plot` で，boolean array を用いてグラフの一部だけを強調するサンプルプログラム
 - [`matplotlib_latex.py`](https://github.com/ryo-ARAKI/TIL/blob/master/python/matplotlib_latex.py)
-  - `Matplotlib` で `LaTeX` 書式を使うサンプルプログラム
+  - Matplotlib で LaTeX 書式を使うサンプルプログラム
 - [`matplotlib_share_x_axis.py`](https://github.com/ryo-ARAKI/TIL/blob/master/python/matplotlib_share_x_axis.py)
-  - `Matplotlib` で異なるスケールのデータを$x$軸を共有してプロットするサンプルプログラム
+  - Matplotlib で異なるスケールのデータを$x$軸を共有してプロットするサンプルプログラム
 - [`matplotlib_ticks_position.py`](https://github.com/ryo-ARAKI/TIL/blob/master/python/matplotlib_ticks_position.py)
-  - `Matplotlib` で軸の `ticks` 位置を調整するサンプルプログラム
+  - Matplotlib で軸の `ticks` 位置を調整するサンプルプログラム
 - [`quick_scatter_plot_with_raster.md`](https://github.com/ryo-ARAKI/TIL/blob/master/python/quick_scatter_plot_with_raster.md)
   - Scatter プロットの scatter 部分のみをラスタライズして高速化する
 - [`stdout_numerical_sequence_with_white_space.md`](https://github.com/ryo-ARAKI/TIL/blob/master/python/stdout_numerical_sequence_with_white_space.md)
