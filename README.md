@@ -78,9 +78,7 @@ Memorandum of Today I Learned
 - [`quick_scatter_plot_with_raster.md`]()
 - [`stdout_numerical_sequence_with_white_space.md`]()
 
-
 ## To Be Added
 
-- `hdf5_tutorial.md`
-  - Fortran90 から HDF ファイル形式への書き込み，読み取り方法
-  - 他のソフトウェア（ParaView とか）からの読み込み方法
+- Fortran90 から HDF ファイル形式への書き込み，読み取り方法
+- HDF ファイルを ParaView からの読み込む方法
