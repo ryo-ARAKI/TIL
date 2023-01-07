@@ -16,7 +16,7 @@ Memorandum of Today I Learned
 - [`customise_toc.md`](https://github.com/ryo-ARAKI/TIL/blob/master/beamer/customise_toc.md)
   - 目次の表示を制御する
 - [`temporarily_different_bullet_for_itemize.md`](https://github.com/ryo-ARAKI/TIL/blob/master/beamer/temporarily_different_bullet_for_itemize.md)
-  - `itemize` 環境中で一部だけ異なるbulletを使う
+  - `itemize` 環境中で一部だけ異なる bullet を使う
 
 </details>
 
@@ -26,7 +26,7 @@ Memorandum of Today I Learned
 <summary>ファイル一覧</summary>
 
 - [`f2py.f90`](https://github.com/ryo-ARAKI/TIL/blob/master/fortran/f2py.f90)と[`f2py.py`](https://github.com/ryo-ARAKI/TIL/blob/master/fortran/f2py.py)
-  - FortranとPythonを連携する `F2PY` のサンプルプログラム
+  - Fortran と Python を連携する `F2PY` のサンプルプログラム
 - [`ifdef.f90`](https://github.com/ryo-ARAKI/TIL/blob/master/fortran/ifdef.f90)
   - `#ifdef` フラグのサンプルプログラム
 
@@ -38,9 +38,9 @@ Memorandum of Today I Learned
 <summary>ファイル一覧</summary>
 
 - [`extract_subdirectory_as_new_repository.md`](https://github.com/ryo-ARAKI/TIL/blob/master/git/extract_subdirectory_as_new_repository.md)
-  - あるGitリポジトリ中のサブディレクトリを新しいリポジトリとして切り出す
+  - ある Git リポジトリ中のサブディレクトリを新しいリポジトリとして切り出す
 - [`rename_remote_branch.md`](https://github.com/ryo-ARAKI/TIL/blob/master/git/rename_remote_branch.md)
-  - Remote branchの名前を変える
+  - Remote branch の名前を変える
 
 </details>
 
@@ -52,9 +52,9 @@ Memorandum of Today I Learned
 - [`decimate_data.md`](https://github.com/ryo-ARAKI/TIL/blob/master/gnuplot/decimate_data.md)
   - データを間引いて描画する
 - [`do_not_plot_0_data.md`](https://github.com/ryo-ARAKI/TIL/blob/master/gnuplot/do_not_plot_0_data.md)
-  - y=0を描画しない
+  - y=0 を描画しない
 - [`install_without_sudo.md`](https://github.com/ryo-ARAKI/TIL/blob/master/gnuplot/install_without_sudo.md)
-  - サーバにsudo権限無しで gnuplot ver5.2.8をインストールする
+  - サーバに sudo 権限無しで gnuplot ver5.2.8 をインストールする
 - [`keep_plot_generated_by_gp_script.md`](https://github.com/ryo-ARAKI/TIL/blob/master/gnuplot/keep_plot_generated_by_gp_script.md)
   - `.gp` スクリプトで描画したグラフを表示し続ける
 - [`plot_sum_of_multiple_columns.md`](https://github.com/ryo-ARAKI/TIL/blob/master/gnuplot/plot_sum_of_multiple_columns.md)
@@ -74,7 +74,7 @@ Memorandum of Today I Learned
 - [`Unitful.jl`](https://github.com/ryo-ARAKI/TIL/blob/master/julia/Unitful.jl)
   - `Unitful` パッケージを使った単位つき数値の計算のサンプルプログラム
 - [`package_list_for_physics_simulation.md`](https://github.com/ryo-ARAKI/TIL/blob/master/julia/package_list_for_physics_simulation.md)
-  - 物理シミュレーション/数値計算に役立つJuliaのパッケージリスト
+  - 物理シミュレーション/数値計算に役立つ Julia のパッケージリスト
 
 </details>
 
@@ -114,11 +114,11 @@ Memorandum of Today I Learned
 - [`submit_to_arXiv_with_jfm.md`](https://github.com/ryo-ARAKI/TIL/blob/master/latex/submit_to_arXiv_with_jfm.md)
   - `jfm.cls` を使って arXiv にプレプリントを投稿する際の注意点
 - [`super_sub_script_in_text.md`](https://github.com/ryo-ARAKI/TIL/blob/master/latex/super_sub_script_in_text.md)
-  - Mathモード以外で上付き（下付き）文字を使う
+  - Math モード以外で上付き（下付き）文字を使う
 - [`suppress_number_overflow.md`](https://github.com/ryo-ARAKI/TIL/blob/master/latex/suppress_number_overflow.md)
   - footnote 番号（アルファベット）や `\subfloat` の図番号のオーバーフローを抑制する
 - [`texlive_clean_install.md`](https://github.com/ryo-ARAKI/TIL/blob/master/latex/texlive_clean_install.md)
-  - TeXLiveをクリーンインストールする手順
+  - TeXLive をクリーンインストールする手順
 - [`tikz_tutorial.md`](https://github.com/ryo-ARAKI/TIL/blob/master/latex/tikz_tutorial.md)
   - `TikZ` の備忘録
 - [`transpose_symbol.md`](https://github.com/ryo-ARAKI/TIL/blob/master/latex/transpose_symbol.md)
@@ -150,7 +150,7 @@ Memorandum of Today I Learned
 - [`maintain_same_margin_for_different_label.md`](https://github.com/ryo-ARAKI/TIL/blob/master/python/maintain_same_margin_for_different_label.md)
   - 異なる軸ラベルに対して同一のプロット領域を確保する
 - [`matplotlib_bool_mask.py`](https://github.com/ryo-ARAKI/TIL/blob/master/python/matplotlib_bool_mask.py)
-  - `Matplotlib` の `plot` で，boolean arrayを用いてグラフの一部だけを強調するサンプルプログラム
+  - `Matplotlib` の `plot` で，boolean array を用いてグラフの一部だけを強調するサンプルプログラム
 - [`matplotlib_latex.py`](https://github.com/ryo-ARAKI/TIL/blob/master/python/matplotlib_latex.py)
   - `Matplotlib` で `LaTeX` 書式を使うサンプルプログラム
 - [`matplotlib_share_x_axis.py`](https://github.com/ryo-ARAKI/TIL/blob/master/python/matplotlib_share_x_axis.py)
@@ -158,7 +158,7 @@ Memorandum of Today I Learned
 - [`matplotlib_ticks_position.py`](https://github.com/ryo-ARAKI/TIL/blob/master/python/matplotlib_ticks_position.py)
   - `Matplotlib` で軸の `ticks` 位置を調整するサンプルプログラム
 - [`quick_scatter_plot_with_raster.md`](https://github.com/ryo-ARAKI/TIL/blob/master/python/quick_scatter_plot_with_raster.md)
-  - Scatterプロットのscatter部分のみをラスタライズして高速化する
+  - Scatter プロットの scatter 部分のみをラスタライズして高速化する
 - [`stdout_numerical_sequence_with_white_space.md`](https://github.com/ryo-ARAKI/TIL/blob/master/python/stdout_numerical_sequence_with_white_space.md)
   - 数列を空白区切りで出力する
 

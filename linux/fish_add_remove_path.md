@@ -17,6 +17,6 @@ set --erase --universal fish_user_paths[hoge]
 
 - [How to remove a path from \$PATH variable in fish?](https://superuser.com/a/1091983)
 - `echo $fish_user_paths | tr " " "\n" | nl`
-  - `$PATH`を順番に表示する
+  - `$PATH` を順番に表示する
 - `set --erase --universal fish_user_paths[hoge]`
-  - `hoge`番の`$PATH`を削除する
+  - `hoge` 番の `$PATH` を削除する

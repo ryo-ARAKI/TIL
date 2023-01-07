@@ -1,7 +1,7 @@
 # `.bib` ファイルの必須フィールドの抜けを確認する
 
-`biber` に `-V` （`--validate-datamodel`）オプションをつける．
-不足している/データ型（`@article` など）に存在しないフィールドの情報が `.bbl` ファイルに
+`biber` に `-V` （ `--validate-datamodel` ）オプションをつける．
+不足している/データ型（ `@article`  など）に存在しないフィールドの情報が `.bbl` ファイルに
 
 ```latex
 \warn{\item Datamodel: Entry 'key' (./bibliography.bib): Missing mandatory field 'journaltitle'}

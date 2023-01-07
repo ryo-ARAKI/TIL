@@ -1,4 +1,4 @@
-# y=0を描画しない
+# y=0 を描画しない
 
 ```gnuplot
 plot "mydataset.dat" u 1:($2 == 0 ? NaN : $2)

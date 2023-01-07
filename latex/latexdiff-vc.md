@@ -14,5 +14,5 @@ latexdiff-vc -e utf8 -t CFONT --flatten --math-markup=2 --git --force -r HEAD^ m
 
 - 参考
   - [Overleaf: Using Latexdiff For Marking Changes To Tex Documents](https://www.overleaf.com/learn/latex/Articles/Using_Latexdiff_For_Marking_Changes_To_Tex_Documents)
-  - [にっき♪：latexdiff](<http://abenori.blogspot.com/2016/06/latexdiff.html>
-  - [Gitで管理しているLaTeXのdiffをpdfで見る(TeXLive2015版)](https://nekketsuuu.github.io/entries/2017/01/27/latexdiff-vc.html)
+  - [にっき ♪：latexdiff](<http://abenori.blogspot.com/2016/06/latexdiff.html>
+  - [Git で管理している LaTeX の diff を pdf で見る(TeXLive2015 版)](https://nekketsuuu.github.io/entries/2017/01/27/latexdiff-vc.html)

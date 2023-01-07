@@ -7,7 +7,7 @@
 import test
 import numpy as np
 
-x = np.empty((3,2), dtype=float )
+x = np.empty((3, 2), dtype=float)
 
 for j in range(x.shape[1]):
     for i in range(x.shape[0]):

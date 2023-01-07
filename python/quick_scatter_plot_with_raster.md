@@ -1,4 +1,4 @@
-# Scatterプロットのscatter部分のみをラスタライズして高速化する
+# Scatter プロットの scatter 部分のみをラスタライズして高速化する
 
 ```Python
 ax.scatter(

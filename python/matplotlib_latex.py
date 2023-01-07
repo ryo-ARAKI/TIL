@@ -45,7 +45,7 @@ legend = [
     r"$\sin(2\pi x)$",
     r"$\sin(3\pi x)$",
     r"$\sin(4\pi x)$"
-    ]
+]
 
 # プロット
 for itr_data in range(np.shape(y)[1]):

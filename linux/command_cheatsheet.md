@@ -84,8 +84,7 @@
 ### `du -h -d 1 | sort -k 2` 同じ階層にあるディレクトリのサイズ一覧をディレクトリ名でソート
 
 - `sort -k 2`
-  - 2番目の引数（=ディレクトリ名）でソート
-
+  - 2 番目の引数（=ディレクトリ名）でソート
 
 ### `sudo rm /var/lib/apt/lists/lock && sudo rm /var/lib/dpkg/lock` ロック状態になってしまった `dpkg` の解除
 
@@ -133,23 +132,23 @@
 
 - `ffmpeg`
   - `-r` フレームレート(FPS)を指定
-  - `-vb` video bitrateを設定
+  - `-vb` video bitrate を設定
 
-### `gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/printer -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output.pdf input.pdf` PDF中の画像サイズを縮小してファイルサイズを小さくする
+### `gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/printer -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output.pdf input.pdf` PDF 中の画像サイズを縮小してファイルサイズを小さくする
 
 - `gs` ghostscript
   - `-sDEVICE=pdfwrite`
   - `-dCompatibilityLevel=1.4`
-  - `-dPDFSETTINGS=/printer` PDFサイズの指定
+  - `-dPDFSETTINGS=/printer` PDF サイズの指定
     - `/screen` → `/ebook` → ``/printer` → `/prepress` → `/default` の順に画質が良くなる（ファイルサイズが大きくなる）
   - `-dNOPAUSE`
   - `-dQUIET`
   - `-dBATCH`
 
-### `cut -c10-20 file.d | sort -n | uniq -c | sort -nr` `file.d`中の行の先頭から10〜20文字目で繰り返されるパターンを検知し，その頻度とともに表示する
+### `cut -c10-20 file.d | sort -n | uniq -c | sort -nr` `file.d`中の行の先頭から 10〜20 文字目で繰り返されるパターンを検知し，その頻度とともに表示する
 
 - `cut` ファイルを読み込み，各業から指定した部分を切り出す
-  - `-c10-20` 出力リスト（いまの場合，行の先頭から10〜20文字目）． `--character 10-20` と同値
+  - `-c10-20` 出力リスト（いまの場合，行の先頭から 10〜20 文字目）． `--character 10-20` と同値
 - `uniq` ソートされているファイル中の重複を削除する
   - `-c` 出現回数を行の先頭に表示する． `	--count` と同値
 
