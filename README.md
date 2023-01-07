@@ -6,64 +6,78 @@ Memorandum of Today I Learned
 
 ## [Beamer](https://github.com/ryo-ARAKI/TIL/blob/master/beamer/)
 
+- [`animation_itemize.md`]()
+- [`animation_on_handout.md`]()
+- [`customise_toc.md`]()
+- [`temporarily_different_bullet_for_itemize.md`]()
+
 ## [Fortran](https://github.com/ryo-ARAKI/TIL/blob/master/fortran/)
 
-- [`ifdef.f90`](https://github.com/ryo-ARAKI/TIL/blob/master/fortran/ifdef.f90)
-  - #ifdef フラグのサンプルプログラム
-- [`f2py.f90`](https://github.com/ryo-ARAKI/TIL/blob/master/fortran/f2py.f90), [`f2py.py`](https://github.com/ryo-ARAKI/TIL/blob/master/fortran/f2py.py)
-  - F2PY のサンプルプログラム
+- [`f2py.f90`]()
+- [`f2py.py`]()
+- [`ifdef.f90`]()
 
 ## [Git](https://github.com/ryo-ARAKI/TIL/blob/master/git/)
 
-- [`git_rename_remote_branch.md`](https://github.com/ryo-ARAKI/TIL/blob/master/git_rename_remote_branch.md)
-  - git で remote branch の名前を変更する手順
-- [`git_subdirectory_as_new_repository.md`](https://github.com/ryo-ARAKI/TIL/blob/master/git_subdirectory_as_new_repository.md)
-  - git であるリポジトリのサブディレクトリを（履歴を維持しつつ）新しいリポジトリとして切り出す手順
+- [`extract_subdirectory_as_new_repository.md`]()
+- [`rename_remote_branch.md`]()
 
 ## [Gnuplot](https://github.com/ryo-ARAKI/TIL/blob/master/gnuplot/)
 
-- [`gnuplot_install_without_sudo.md`](https://github.com/ryo-ARAKI/TIL/blob/master/gnuplot_install_without_sudo.md)
-  - サーバに sudo 権限無しで gnuplot ver5.2.8 をインストールする
+- [`decimate_data.md`]()
+- [`do_not_plot_0_data.md`]()
+- [`install_without_sudo.md`]()
+- [`keep_plot_generated_by_gp_script.md`]()
+- [`plot_sum_of_multiple_columns.md`]()
+- [`print_key_in_front.md`]()
+- [`set_plot_range.md`]()
 
 ## [Julia](https://github.com/ryo-ARAKI/TIL/blob/master/julia/)
 
-- [`julia_package_list_for_physics_simulation.md`](https://github.com/ryo-ARAKI/TIL/blob/master/julia_package_list_for_physics_simulation.md)
-  - 物理シミュレーション/数値計算に役立つ Julia のパッケージリスト
-- [`Unitful.jl`](https://github.com/ryo-ARAKI/TIL/blob/master/Unitful.jl)
-  - Julia 1.0 で単位付き数値の算術
+- [`Unitful.jl`]()
+- [`package_list_for_physics_simulation.md`]()
+
 
 ## [LaTeX](https://github.com/ryo-ARAKI/TIL/blob/master/latex/)
 
-- [`texlive_clean_install.md`](https://github.com/ryo-ARAKI/TIL/blob/master/texlive_clean_install.md)
-  - TeXLive をクリーンインストールする手順
-- [`tikz_tutorial.md`](https://github.com/ryo-ARAKI/TIL/blob/master/tikz_tutorial.md)
-  - Tikz の備忘録
+- [`align_text_inside_itemize.md`]()
+- [`biblatex_suppress_issue_inside_parthensis.md`]()
+- [`breakline_inside_underbrace.md`]()
+- [`breakline_inside_underline.md`]()
+- [`breakline_long_aligned_equations.md`]()
+- [`check_lacking_field_in_bib.md`]()
+- [`draw_holizontal_line_for_document_width.md`]()
+- [`dummy_contents.md`]()
+- [`fix_underbrace.md`]()
+- [`latexdiff-vc.md`]()
+- [`refer_equations_with_eqref.md`]()
+- [`single_number_for_multi_line_equations.md`]()
+- [`siunitx.md`]()
+- [`submit_to_APS_with_biblatex.md`]()
+- [`submit_to_arXiv_with_jfm.md`]()
+- [`super_sub_script_in_text.md`]()
+- [`suppress_number_overflow.md`]()
+- [`texlive_clean_install.md`]()
+- [`tikz_tutorial.md`]()
+- [`transpose_symbol.md`]()
 
 ## [Linux](https://github.com/ryo-ARAKI/TIL/blob/master/linux/)
 
-- [`linux_cheatsheet.md`](https://github.com/ryo-ARAKI/TIL/blob/master/linux_cheatsheet.md)
-  - Linux の（やや複雑な）コマンドチートシート
-- [`shell_script_tips.md`](https://github.com/ryo-ARAKI/TIL/blob/master/shell_script_tips.md)
-  - シェルスクリプトの備忘録
-- [`fish_add_remove_path.md`](https://github.com/ryo-ARAKI/TIL/blob/master/fish_add_remove_path.md)
-  - fish shell における永続的な `PATH` の追加/削除
+- [`command_cheatsheet.md`]()
+- [`fish_add_remove_path.md`]()
+- [`shell_script_tips.md`]()
 
 ## [Python](https://github.com/ryo-ARAKI/TIL/blob/master/python/)
 
-- [`python_tips.md`](https://github.com/ryo-ARAKI/TIL/blob/master/python_tips.md)
-  - Python の備忘録
-- [`matplotlib_tips.md`](https://github.com/ryo-ARAKI/TIL/blob/master/matplotlib_tips.md)
-  - Matplotlib の備忘録
-- [`lineplot_with_arrow_annotation.py`](https://github.com/ryo-ARAKI/TIL/blob/master/lineplot_with_arrow_annotation.py)
-  - Matplotlib の `plt.plot` に矢印のアノーテーションをつける
-- [`matplotlib_bool_mask.py`](https://github.com/ryo-ARAKI/TIL/blob/master/matplotlib_bool_mask.py)
-  - Matplotlib の plot で，boolean array を用いてグラフの一部だけを強調するプログラム
-- [`matplotlib_latex.py`](https://github.com/ryo-ARAKI/TIL/blob/master/matplotlib_latex.py)
-  - Matplotlib で LaTeX 書式を使うサンプルプログラム
-- [`matplotlib_share_x_axis.py`](https://github.com/ryo-ARAKI/TIL/blob/master/matplotlib_share_x_axis.py)
-  - Matplotlib で異なるスケールのデータを x 軸を共有してプロットする
-- [`matplotlib_ticks_position.py`](https://github.com/ryo-ARAKI/TIL/blob/master/matplotlib_ticks_position.py)
-  - Matplotlib で軸の ticks 位置を調整するサンプルプログラム
+- [`lineplot_with_arrow_annotation.py`]()
+- [`maintain_same_margin_for_different_label.md`]()
+- [`matplotlib_bool_mask.py`]()
+- [`matplotlib_latex.py`]()
+- [`matplotlib_share_x_axis.py`]()
+- [`matplotlib_ticks_position.py`]()
+- [`quick_scatter_plot_with_raster.md`]()
+- [`stdout_numerical_sequence_with_white_space.md`]()
+
 
 ## To Be Added
 
