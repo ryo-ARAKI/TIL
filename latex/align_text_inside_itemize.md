@@ -1,6 +1,6 @@
-# `itemize`環境内でテキストを揃える
+# `itemize` 環境内でテキストを揃える
 
-- `makebox`を使う
+- `makebox` を使う
 
 ```latex
 \begin{itemize}

@@ -1,4 +1,4 @@
-# `\underline{}` 中で改行する
+# `\underline` 環境中で改行する
 
 - 代替パッケージを使う：[下線に関するマクロ比較](http://www9.oninet.ne.jp/ohishi/tex/library/underline.pdf)
 

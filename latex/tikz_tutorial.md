@@ -1,9 +1,9 @@
-# Tikzの備忘録
+# `TikZ` の備忘録
 
 ## 参考にしたサイト
 
-- [九州大学附属図書館：Tikzを使ってみよう！](https://guides.lib.kyushu-u.ac.jp/c.php?g=774891&p=5559083)
-- [BeamerのためのTikZ](https://www.opt.mist.i.u-tokyo.ac.jp/~tasuku/tikz.html)
+- [九州大学附属図書館：Tikz を使ってみよう！](https://guides.lib.kyushu-u.ac.jp/c.php?g=774891&p=5559083)
+- [Beamer のための TikZ](https://www.opt.mist.i.u-tokyo.ac.jp/~tasuku/tikz.html)
 - [Visual Tikz](http://ftp.jaist.ac.jp/pub/CTAN/info/visualtikz/VisualTikZ.pdf)
 
 ## 基本
