@@ -4,7 +4,7 @@ Memorandum of Today I Learned
 
 今日学んだこと（Today I Learned TIL）のメモ
 
-## [Beamer]()
+## [Beamer](https://github.com/ryo-ARAKI/TIL/tree/master/beamer)
 
 <details>
 <summary>ファイル一覧</summary>
@@ -16,7 +16,7 @@ Memorandum of Today I Learned
 
 </details>
 
-## [Fortran]()
+## [Fortran](https://github.com/ryo-ARAKI/TIL/tree/master/fortran)
 
 <details>
 <summary>ファイル一覧</summary>
@@ -27,7 +27,7 @@ Memorandum of Today I Learned
 
 </details>
 
-## [Git]()
+## [Git](https://github.com/ryo-ARAKI/TIL/tree/master/git)
 
 <details>
 <summary>ファイル一覧</summary>
@@ -37,7 +37,7 @@ Memorandum of Today I Learned
 
 </details>
 
-## [Gnuplot]()
+## [Gnuplot](https://github.com/ryo-ARAKI/TIL/tree/master/gnuplot)
 
 <details>
 <summary>ファイル一覧</summary>
@@ -52,7 +52,7 @@ Memorandum of Today I Learned
 
 </details>
 
-## [Julia]()
+## [Julia](https://github.com/ryo-ARAKI/TIL/tree/master/julia)
 
 <details>
 <summary>ファイル一覧</summary>
@@ -62,7 +62,7 @@ Memorandum of Today I Learned
 
 </details>
 
-## [LaTeX]()
+## [LaTeX](https://github.com/ryo-ARAKI/TIL/tree/master/latex)
 
 <details>
 <summary>ファイル一覧</summary>
@@ -90,7 +90,7 @@ Memorandum of Today I Learned
 
 </details>
 
-## [Linux]()
+## [Linux](https://github.com/ryo-ARAKI/TIL/tree/master/linux)
 
 <details>
 <summary>ファイル一覧</summary>
@@ -101,7 +101,7 @@ Memorandum of Today I Learned
 
 </details>
 
-## [Python]()
+## [Python](https://github.com/ryo-ARAKI/TIL/tree/master/python)
 
 <details>
 <summary>ファイル一覧</summary>
