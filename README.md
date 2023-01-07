@@ -48,7 +48,7 @@ Memorandum of Today I Learned
 - [`fish_add_remove_path.md`](https://github.com/ryo-ARAKI/TIL/blob/master/fish_add_remove_path.md)
   - fish shell における永続的な `PATH` の追加/削除
 
-## Python
+## [Python](https://github.com/ryo-ARAKI/TIL/blob/master/python/)
 
 - [`python_tips.md`](https://github.com/ryo-ARAKI/TIL/blob/master/python_tips.md)
   - Python の備忘録
