@@ -4,11 +4,11 @@ Memorandum of Today I Learned
 
 今日学んだこと（Today I Learned TIL）のメモ
 
-## Fortran
+## [Fortran](https://github.com/ryo-ARAKI/TIL/blob/master/fortran/)
 
-- [`fortran_ifdef.f90`](https://github.com/ryo-ARAKI/TIL/blob/master/fortran_ifdef.f90)
+- [`ifdef.f90`](https://github.com/ryo-ARAKI/TIL/blob/master/fortran/ifdef.f90)
   - #ifdef フラグのサンプルプログラム
-- [`f2py.f90`](https://github.com/ryo-ARAKI/TIL/blob/master/f2py.f90), [`f2py.py`](https://github.com/ryo-ARAKI/TIL/blob/master/f2py.py)
+- [`f2py.f90`](https://github.com/ryo-ARAKI/TIL/blob/master/fortran/f2py.f90), [`f2py.py`](https://github.com/ryo-ARAKI/TIL/blob/master/fortran/f2py.py)
   - F2PY のサンプルプログラム
 
 ## Git
