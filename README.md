@@ -7,7 +7,7 @@ Memorandum of Today I Learned
 ## テンプレート/設定ファイル
 
 <details>
-<summary>ファイル一覧</summary>
+<summary>テンプレート/設定ファイルのリスト</summary>
 
 Gist で管理している各種設定ファイルやテンプレートのリンクをまとめる．
 
@@ -44,7 +44,7 @@ Gist で管理している各種設定ファイルやテンプレートのリン
 ## [Beamer](https://github.com/ryo-ARAKI/TIL/tree/master/beamer)
 
 <details>
-<summary>ファイル一覧</summary>
+<summary>Beamerのtipsリスト</summary>
 
 - [animation_itemize.md](https://github.com/ryo-ARAKI/TIL/blob/master/beamer/animation_itemize.md)
   - `itemize` 環境にアニメーションをつける
@@ -60,7 +60,7 @@ Gist で管理している各種設定ファイルやテンプレートのリン
 ## [Fortran](https://github.com/ryo-ARAKI/TIL/tree/master/fortran)
 
 <details>
-<summary>ファイル一覧</summary>
+<summary>Fortranのtipsリスト</summary>
 
 - [f2py.f90](https://github.com/ryo-ARAKI/TIL/blob/master/fortran/f2py.f90)と[f2py.py](https://github.com/ryo-ARAKI/TIL/blob/master/fortran/f2py.py)
   - Fortran と Python を連携する F2PY のサンプルプログラム
@@ -72,7 +72,7 @@ Gist で管理している各種設定ファイルやテンプレートのリン
 ## [Git](https://github.com/ryo-ARAKI/TIL/tree/master/git)
 
 <details>
-<summary>ファイル一覧</summary>
+<summary>Gitのtipsリスト</summary>
 
 - [extract_subdirectory_as_new_repository.md](https://github.com/ryo-ARAKI/TIL/blob/master/git/extract_subdirectory_as_new_repository.md)
   - ある Git リポジトリ中のサブディレクトリを新しいリポジトリとして切り出す
@@ -84,7 +84,7 @@ Gist で管理している各種設定ファイルやテンプレートのリン
 ## [Gnuplot](https://github.com/ryo-ARAKI/TIL/tree/master/gnuplot)
 
 <details>
-<summary>ファイル一覧</summary>
+<summary>Gnuplotのtipsリスト</summary>
 
 - [decimate_data.md](https://github.com/ryo-ARAKI/TIL/blob/master/gnuplot/decimate_data.md)
   - データを間引いて描画する
@@ -106,7 +106,7 @@ Gist で管理している各種設定ファイルやテンプレートのリン
 ## [Julia](https://github.com/ryo-ARAKI/TIL/tree/master/julia)
 
 <details>
-<summary>ファイル一覧</summary>
+<summary>Juliaのtipsリスト</summary>
 
 - [Unitful.jl](https://github.com/ryo-ARAKI/TIL/blob/master/julia/Unitful.jl)
   - `Unitful` パッケージを使った単位つき数値の計算のサンプルプログラム
@@ -118,7 +118,7 @@ Gist で管理している各種設定ファイルやテンプレートのリン
 ## [LaTeX](https://github.com/ryo-ARAKI/TIL/tree/master/latex)
 
 <details>
-<summary>ファイル一覧</summary>
+<summary>LaTeXのtipsリスト</summary>
 
 - [align_text_inside_itemize.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/align_text_inside_itemize.md)
   - `itemize` 環境内でテキストを揃える
@@ -166,7 +166,7 @@ Gist で管理している各種設定ファイルやテンプレートのリン
 ## [Linux](https://github.com/ryo-ARAKI/TIL/tree/master/linux)
 
 <details>
-<summary>ファイル一覧</summary>
+<summary>Linuxのtipsリスト</summary>
 
 - [command_cheatsheet.md](https://github.com/ryo-ARAKI/TIL/blob/master/linux/command_cheatsheet.md)
   - Linux の（やや複雑な）コマンドチートシート
@@ -182,7 +182,7 @@ Gist で管理している各種設定ファイルやテンプレートのリン
 ## [Python](https://github.com/ryo-ARAKI/TIL/tree/master/python)
 
 <details>
-<summary>ファイル一覧</summary>
+<summary>Pythonのtipsリスト</summary>
 
 - [lineplot_with_arrow_annotation.py](https://github.com/ryo-ARAKI/TIL/blob/master/python/lineplot_with_arrow_annotation.py)
   - Matplotlib の `plt.plot` に矢印のアノーテーションをつけるサンプルプログラム
