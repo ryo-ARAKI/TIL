@@ -1,0 +1,68 @@
+# `jfm.cls` を使ってarXivにプレプリントを投稿する際の注意点
+
+- 行番号を表示しない
+  - `documentclass` から `lineno` オプションを削除する
+- Footerを表示しない
+  - `\corresp{}` コマンドによるemailの表示を削除する
+  - `jfm.cls` のfooter定義を削除（下記参照）
+- `.bbl` ファイルを使って参考文献を表示する
+  - `\bibliography{}` で `.bib` ではなく `.bbl` ファイル名を指定する
+
+`jfm.cls` でfooterが定義されている部分
+
+```latex
+\def\absfooterflag{\footerflagdefns{Abstract must not spill onto p.2}}%
+
+\def\pagelimitfooter{\bgroup%
+\ifnum\c@page=4\relax%
+\footerflagdefns{Focus on Fluids articles must not exceed this page length}%
+\else%
+\ifnum\c@page=10\relax%
+\footerflagdefns{Rapids articles must not exceed this page length}%
+\fi\fi%
+\egroup}%
+
+\def\ps@headings{\let\@mkboth\markboth
+  \def\@oddhead{\hfil{\itshape\@shorttitle}\hfil\llap{\thepage}}%
+  \def\@evenhead{\rlap{\thepage}\hfil\itshape\@shortauthor\hfil}%
+  \def\@oddfoot{}%
+  \def\@evenfoot{\pagelimitfooter}%
+  \def\sectionmark##1{\markboth{##1}{}}%
+  \def\subsectionmark##1{\markright{##1}}%
+}
+
+...
+
+\hbox to \textwidth{{\fboxsep0pt\fbox{\parbox{\textwidth}{\par\vskip2.7pc\centerline{Banner appropriate to article type will appear here in typeset article}\par\vskip2.7pc}}}}
+}}
+  \def\@evenhead{\@j@urnal \hfil\llap{\thepage}}%
+  \def\@oddfoot{\absfooterflag}%
+  \def\@evenfoot{\absfooterflag}%
+  \def\sectionmark##1{}%
+  \def\subsectionmark##1{}%
+}
+```
+
+を以下のように修正する
+
+```latex
+\def\ps@headings{\let\@mkboth\markboth
+  \def\@oddhead{\hfil{\itshape\@shorttitle}\hfil\llap{\thepage}}%
+  \def\@evenhead{\rlap{\thepage}\hfil\itshape\@shortauthor\hfil}%
+  \def\@oddfoot{}%
+  \def\@evenfoot{}%
+  \def\sectionmark##1{\markboth{##1}{}}%
+  \def\subsectionmark##1{\markright{##1}}%
+}
+
+...
+
+\hbox to \textwidth{{\fboxsep0pt\fbox{\parbox{\textwidth}{\par\vskip2.7pc\centerline{Banner appropriate to article type will appear here in typeset article}\par\vskip2.7pc}}}}
+}}
+  \def\@evenhead{\@j@urnal \hfil\llap{\thepage}}%
+  \def\@oddfoot{}%
+  \def\@evenfoot{}%
+  \def\sectionmark##1{}%
+  \def\subsectionmark##1{}%
+}
+```
