@@ -145,7 +145,7 @@ Gist で管理している各種設定ファイルやテンプレートのリン
   - LaTeXdiff と git を連携する
 - [refer_equations_with_eqref.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/refer_equations_with_eqref.md)
   - `\eqref` で数式を参照する
-- [latex/revtex_preamble.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/latex/revtex_preamble.md)
+- [revtex_preamble.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/latex/revtex_preamble.md)
   - REVTeXなど論文執筆時の `.tex` テンプレートに追加するパッケージや設定
 - [single_number_for_multi_line_equations.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/single_number_for_multi_line_equations.md)
   - `empheq` 環境下で数式番号をまとめる
