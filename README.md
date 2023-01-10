@@ -125,6 +125,8 @@ Gist で管理している各種設定ファイルやテンプレートのリン
   - `itemize` 環境内でテキストを揃える
 - [biblatex_suppress_issue_inside_parthensis.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/biblatex_suppress_issue_inside_parthensis.md)
   - BibLaTeX で出版年の括弧に `issue` の情報が入ってしまうのを抑制する
+- [bib_arXiv.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/bib_arXiv.md)
+  - `.bib` ファイルでの arXiv の論文のフォーマット
 - [breakline_inside_underbrace.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/breakline_inside_underbrace.md)
   - `underbrace` 環境中で改行する
 - [breakline_inside_underline.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/breakline_inside_underline.md)
