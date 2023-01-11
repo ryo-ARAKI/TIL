@@ -22,7 +22,7 @@
 
 - Display the main panel on: Primary monitor
 - Panel Intellihide: On
-- Panel screen position: Top
+- Panel screen position: Bottom
 - Panel thickness: 64
 - Show Applications button: Invisible
 - Desktop button: Invisible
