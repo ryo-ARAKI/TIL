@@ -177,6 +177,8 @@ Gist で管理している各種設定ファイルやテンプレートのリン
   - Linux の（やや複雑な）コマンドチートシート
 - [fish_add_remove_path.md](https://github.com/ryo-ARAKI/TIL/blob/master/linux/fish_add_remove_path.md)
   - fish shell における永続的な `PATH` の追加/削除
+- [gnome_shell_extensions.md](https://github.com/ryo-ARAKI/TIL/blob/master/linux/gnome_shell_extensions.md)
+  - GNOME shell extensionsのリスト
 - [shell_interactive.md](https://github.com/ryo-ARAKI/TIL/blob/master/linux/shell_interactive.md)
   - シェルスクリプトにおける Yes/No の選択に応じた対話的実行
 - [shell_iteration.md](https://github.com/ryo-ARAKI/TIL/blob/master/linux/shell_iteration.md)
