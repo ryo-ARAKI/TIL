@@ -45,14 +45,14 @@ Gist で管理している各種設定ファイルやテンプレートのリン
 <details>
 <summary>Beamerのtipsリスト</summary>
 
-- [animation_itemize.md](https://github.com/ryo-ARAKI/TIL/blob/master/beamer/animation_itemize.md)
-  - `itemize` 環境にアニメーションをつける
-- [animation_on_handout.md](https://github.com/ryo-ARAKI/TIL/blob/master/beamer/animation_on_handout.md)
+- [handout_with_complex_animation.md](https://github.com/ryo-ARAKI/TIL/blob/master/beamer/handout_with_complex_animation.md)
   - アニメーションを handout に反映する
-- [customise_toc.md](https://github.com/ryo-ARAKI/TIL/blob/master/beamer/customise_toc.md)
-  - 目次の表示を制御する
-- [temporarily_different_bullet_for_itemize.md](https://github.com/ryo-ARAKI/TIL/blob/master/beamer/temporarily_different_bullet_for_itemize.md)
+- [itemize_animation.md](https://github.com/ryo-ARAKI/TIL/blob/master/beamer/itemize_animation.md)
+  - `itemize` 環境にアニメーションをつける
+- [itemize_temporarily_different_bullet.md](https://github.com/ryo-ARAKI/TIL/blob/master/beamer/itemize_temporarily_different_bullet.md)
   - `itemize` 環境中で一部だけ異なる bullet を使う
+- [toc_customise.md](https://github.com/ryo-ARAKI/TIL/blob/master/beamer/toc_customise.md)
+  - 目次の表示を制御する
 
 </details>
 
