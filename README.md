@@ -133,6 +133,8 @@ Gist で管理している各種設定ファイルやテンプレートのリン
   - `aligned` 環境下で長い方程式を改行する
 - [bib_check_lacking_field.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/bib_check_lacking_field.md)
   - `.bib` ファイルの必須フィールドの抜けを確認する
+- [toc_correct_pagenumber_and_link.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/toc_correct_pagenumber_and_link.md)
+  - 手動で目次に追加する項目に正しくページ番号とリンクを対応づける
 - [draw_holizontal_line_for_document_width.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/draw_holizontal_line_for_document_width.md)
   - 文章幅と同じ長さの横線を引く
 - [dummy_contents.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/dummy_contents.md)
