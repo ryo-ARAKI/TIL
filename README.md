@@ -1,6 +1,6 @@
 # TIL
 
-Memorandum of Today I Learned
+Memorandum of Today I Learned (in Japanese)
 
 今日学んだこと（Today I Learned TIL）のメモ
 
@@ -214,6 +214,9 @@ Gist で管理している各種設定ファイルやテンプレートのリン
 
 ## To Be Added
 
+<details>
+<summary>今後追加したいtips</summary>
+
 - HDF ファイル
   - Fortran90 から HDF ファイル形式への書き込み，読み取り方法
   - HDF ファイルを ParaView から読み込む方法
@@ -225,3 +228,5 @@ Gist で管理している各種設定ファイルやテンプレートのリン
   - 解析コードで工夫した点
 - Julia
   - 解析コードで工夫した点
+
+</details>
