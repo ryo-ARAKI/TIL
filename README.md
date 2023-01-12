@@ -205,10 +205,10 @@ Gist で管理している各種設定ファイルやテンプレートのリン
   - Matplotlib で異なるスケールのデータを$x$軸を共有してプロットするサンプルプログラム
 - [matplotlib_ticks_position.py](https://github.com/ryo-ARAKI/TIL/blob/master/python/matplotlib_ticks_position.py)
   - Matplotlib で軸の `ticks` 位置を調整するサンプルプログラム
-- [quick_scatter_plot_with_raster.md](https://github.com/ryo-ARAKI/TIL/blob/master/python/quick_scatter_plot_with_raster.md)
-  - Scatter プロットの scatter 部分のみをラスタライズして高速化する
-- [stdout_numerical_sequence_with_white_space.md](https://github.com/ryo-ARAKI/TIL/blob/master/python/stdout_numerical_sequence_with_white_space.md)
+- [numerical_sequence_with_white_space.md](https://github.com/ryo-ARAKI/TIL/blob/master/python/numerical_sequence_with_white_space.md)
   - 数列を空白区切りで出力する
+- [scatter_plot_with_raster.md](https://github.com/ryo-ARAKI/TIL/blob/master/python/scatter_plot_with_raster.md)
+  - Scatter プロットの scatter 部分のみをラスタライズして高速化する
 
 </details>
 
