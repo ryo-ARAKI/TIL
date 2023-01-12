@@ -119,54 +119,54 @@ Gist で管理している各種設定ファイルやテンプレートのリン
 <details>
 <summary>LaTeXのtipsリスト</summary>
 
-- [align_text_inside_itemize.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/align_text_inside_itemize.md)
-  - `itemize` 環境内でテキストを揃える
-- [biblatex_suppress_issue_inside_parthensis.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/biblatex_suppress_issue_inside_parthensis.md)
-  - BibLaTeX で出版年の括弧に `issue` の情報が入ってしまうのを抑制する
+- [aligned_equations_breakline.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/aligned_equations_breakline.md)
+  - `aligned` 環境下で長い方程式を改行する
+- [arxiv_with_jfm_template.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/arxiv_with_jfm_template.md)
+  - `jfm.cls` を使って arXiv にプレプリントを投稿する際の注意点
 - [bib_arXiv.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/bib_arXiv.md)
   - `.bib` ファイルでの arXiv の論文のフォーマット
-- [breakline_inside_underbrace.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/breakline_inside_underbrace.md)
-  - `underbrace` 環境中で改行する
-- [breakline_inside_underline.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/breakline_inside_underline.md)
-  - `\underline` 環境中で改行する
-- [breakline_long_aligned_equations.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/breakline_long_aligned_equations.md)
-  - `aligned` 環境下で長い方程式を改行する
 - [bib_check_lacking_field.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/bib_check_lacking_field.md)
   - `.bib` ファイルの必須フィールドの抜けを確認する
-- [toc_correct_pagenumber_and_link.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/toc_correct_pagenumber_and_link.md)
-  - 手動で目次に追加する項目に正しくページ番号とリンクを対応づける
-- [draw_holizontal_line_for_document_width.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/draw_holizontal_line_for_document_width.md)
-  - 文章幅と同じ長さの横線を引く
+- [biblatex_submit_to_APS.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/biblatex_submit_to_APS.md)
+  - REVTeX + BibLaTeX で参考文献を管理している論文を APS に投稿する
+- [biblatex_suppress_issue_inside_parthensis.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/biblatex_suppress_issue_inside_parthensis.md)
+  - BibLaTeX で出版年の括弧に `issue` の情報が入ってしまうのを抑制する
 - [dummy_contents.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/dummy_contents.md)
   - ダミー文章や図を挿入する
-- [fix_underbrace.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/fix_underbrace.md)
-  - `\underbrace` の表示がおかしい
+- [empheq_single_equation_number.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/empheq_single_equation_number.md)
+  - `empheq` 環境下で数式番号をまとめる
+- [eqref_refer.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/eqref_refer.md)
+  - `\eqref` で数式を参照する
+- [holizontal_line_for_document_width.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/holizontal_line_for_document_width.md)
+  - 文章幅と同じ長さの横線を引く
 - [hyperref_setup.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/hyperref_setup.md)
   - `hyperref` パッケージの設定
+- [itemize_align_inside.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/itemize_align_inside.md)
+  - `itemize` 環境内でテキストを揃える
 - [latexdiff-vc.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/latexdiff-vc.md)
   - LaTeXdiff と git を連携する
-- [refer_equations_with_eqref.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/refer_equations_with_eqref.md)
-  - `\eqref` で数式を参照する
+- [overflow_numbering_suppress.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/overflow_numbering_suppress.md)
+  - footnote 番号（アルファベット）や `\subfloat` の図番号のオーバーフローを抑制する
 - [revtex_preamble.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/revtex_preamble.md)
   - REVTeXなど論文執筆時の `.tex` テンプレートに追加するパッケージや設定
-- [single_number_for_multi_line_equations.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/single_number_for_multi_line_equations.md)
-  - `empheq` 環境下で数式番号をまとめる
 - [siunitx.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/siunitx.md)
   - siunitx を使った単位付き数値を math 環境で使う際の最適解
-- [submit_to_APS_with_biblatex.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/submit_to_APS_with_biblatex.md)
-  - REVTeX + BibLaTeX で参考文献を管理している論文を APS に投稿する
-- [submit_to_arXiv_with_jfm.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/submit_to_arXiv_with_jfm.md)
-  - `jfm.cls` を使って arXiv にプレプリントを投稿する際の注意点
 - [super_sub_script_in_text.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/super_sub_script_in_text.md)
   - Math モード以外で上付き（下付き）文字を使う
-- [suppress_number_overflow.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/suppress_number_overflow.md)
-  - footnote 番号（アルファベット）や `\subfloat` の図番号のオーバーフローを抑制する
 - [texlive_clean_install.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/texlive_clean_install.md)
   - TeXLive をクリーンインストールする手順
 - [tikz_tutorial.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/tikz_tutorial.md)
   - TikZ の備忘録
+- [toc_correct_pagenumber_and_link.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/toc_correct_pagenumber_and_link.md)
+  - 手動で目次に追加する項目に正しくページ番号とリンクを対応づける
 - [transpose_symbol.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/transpose_symbol.md)
   - 行列，ベクトルの転置（transpose）をどう表記するか？
+- [underbrace_breakline.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/underbrace_breakline.md)
+  - `underbrace` 環境中で改行する
+- [underbrace_fix.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/underbrace_fix.md)
+  - `\underbrace` の表示がおかしい
+- [underline_breakline.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/underline_breakline.md)
+  - `\underline` 環境中で改行する
 
 </details>
 
