@@ -45,6 +45,8 @@ Gist で管理している各種設定ファイルやテンプレートのリン
 <details>
 <summary>Beamerのtipsリスト</summary>
 
+- [backup_slide.md](https://github.com/ryo-ARAKI/TIL/blob/master/beamer/backup_slide.md)
+  - Beamerで総スライド番号に影響しない補遺スライドを作成する
 - [bibliography_break_frame.md](https://github.com/ryo-ARAKI/TIL/blob/master/beamer/bibliography_break_frame.md)
   - Beamerで参考文献を出力する
 - [handout_with_complex_animation.md](https://github.com/ryo-ARAKI/TIL/blob/master/beamer/handout_with_complex_animation.md)
