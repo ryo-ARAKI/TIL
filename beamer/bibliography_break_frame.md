@@ -1,4 +1,4 @@
-# Biber で参考文献を出力する
+# 参考文献を複数のスライドに出力する
 
 Frame option に `allowframebreaks` を指定すると勝手にスライドを分割してくれる．
 
