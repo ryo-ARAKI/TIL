@@ -123,6 +123,8 @@ Gist で管理している各種設定ファイルやテンプレートのリン
   - `aligned` 環境下で長い方程式を改行する
 - [arxiv_with_jfm_template.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/arxiv_with_jfm_template.md)
   - `jfm.cls` を使って arXiv にプレプリントを投稿する際の注意点
+- [beamer_bibliography_break_frame.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/beamer_bibliography_break_frame.md)
+  - `.bib` ファイルでの arXiv の論文のフォーマット
 - [bib_arXiv.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/bib_arXiv.md)
   - `.bib` ファイルでの arXiv の論文のフォーマット
 - [bib_check_lacking_field.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/bib_check_lacking_field.md)
