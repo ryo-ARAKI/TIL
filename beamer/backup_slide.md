@@ -20,7 +20,7 @@
 
 
 % ++++++++++++++++++++++++++++++++++++++++++++++++++
-\subsection{subsection title}
+\subsection*{subsection title}
 % ++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \begin{frame}{\insertsubsection}
