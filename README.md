@@ -159,8 +159,6 @@ Gist で管理している各種設定ファイルやテンプレートのリン
   - Math モード以外で上付き（下付き）文字を使う
 - [texlive_clean_install.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/texlive_clean_install.md)
   - TeXLive をクリーンインストールする手順
-- [tikz_tutorial.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/tikz_tutorial.md)
-  - TikZ の備忘録
 - [toc_correct_pagenumber_and_link.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/toc_correct_pagenumber_and_link.md)
   - 手動で目次に追加する項目に正しくページ番号とリンクを対応づける
 - [transpose_symbol.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/transpose_symbol.md)
@@ -213,6 +211,16 @@ Gist で管理している各種設定ファイルやテンプレートのリン
   - 数列を空白区切りで出力する
 - [scatter_plot_with_raster.md](https://github.com/ryo-ARAKI/TIL/blob/master/python/scatter_plot_with_raster.md)
   - Scatter プロットの scatter 部分のみをラスタライズして高速化する
+
+</details>
+
+## [TikZ](https://github.com/ryo-ARAKI/TIL/tree/master/tikz)
+
+<details>
+<summary>TikZのtipsリスト</summary>
+
+- [tikz_tutorial.md](https://github.com/ryo-ARAKI/TIL/blob/master/tikz/tikz_tutorial.md)
+  - TikZ のチュートリアル
 
 </details>
 
