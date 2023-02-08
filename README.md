@@ -219,6 +219,8 @@ Gist で管理している各種設定ファイルやテンプレートのリン
 <details>
 <summary>TikZのtipsリスト</summary>
 
+- [tikz_tutorial.md](https://github.com/ryo-ARAKI/TIL/blob/master/tikz/draw_vortex.md)
+  - 渦を描く
 - [tikz_tutorial.md](https://github.com/ryo-ARAKI/TIL/blob/master/tikz/tikz_tutorial.md)
   - TikZ のチュートリアル
 - [use_colon.md](https://github.com/ryo-ARAKI/TIL/blob/master/tikz/use_colon.md)
