@@ -221,6 +221,8 @@ Gist で管理している各種設定ファイルやテンプレートのリン
 
 - [tikz_tutorial.md](https://github.com/ryo-ARAKI/TIL/blob/master/tikz/tikz_tutorial.md)
   - TikZ のチュートリアル
+- [use_colon.md](https://github.com/ryo-ARAKI/TIL/blob/master/tikz/use_colon.md)
+  - `tikzpicture` 環境中でコロン記号を使う
 
 </details>
 
