@@ -223,6 +223,8 @@ Gist で管理している各種設定ファイルやテンプレートのリン
   - Bézier曲線 control points で制御する
 - [draw_vortex.md](https://github.com/ryo-ARAKI/TIL/blob/master/tikz/draw_vortex.md)
   - 渦を描く
+- [shadow_even_odd.md](https://github.com/ryo-ARAKI/TIL/blob/master/tikz/shadow_even_odd.md)
+  - 図で強調したい領域**以外** に影をつける
 - [tikz_tutorial.md](https://github.com/ryo-ARAKI/TIL/blob/master/tikz/tikz_tutorial.md)
   - TikZ のチュートリアル
 - [use_colon.md](https://github.com/ryo-ARAKI/TIL/blob/master/tikz/use_colon.md)
