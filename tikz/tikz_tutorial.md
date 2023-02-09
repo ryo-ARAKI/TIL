@@ -46,6 +46,12 @@
 \draw[->, very thick] (0,0) node[below]{ここから} -- (2,2) node[above]{ここまで};
 ```
 
+文章を左揃えで改行したいときは
+
+```latex
+\node[draw, align=left] {一行目と\\二行目};
+```
+
 ### 繰り返し処理
 
 ```latex
