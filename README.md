@@ -221,7 +221,7 @@ Gist で管理している各種設定ファイルやテンプレートのリン
 
 - [bezier_curve.md](https://github.com/ryo-ARAKI/TIL/blob/master/tikz/bezier_curve.md)
   - Bézier曲線 control points で制御する
-- [tikz_tutorial.md](https://github.com/ryo-ARAKI/TIL/blob/master/tikz/draw_vortex.md)
+- [draw_vortex.md](https://github.com/ryo-ARAKI/TIL/blob/master/tikz/draw_vortex.md)
   - 渦を描く
 - [tikz_tutorial.md](https://github.com/ryo-ARAKI/TIL/blob/master/tikz/tikz_tutorial.md)
   - TikZ のチュートリアル
