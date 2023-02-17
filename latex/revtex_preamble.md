@@ -9,6 +9,14 @@
 \usepackage{amsmath, amsfonts, amssymb, amsthm, mathtools}  % For math
 \usepackage{physics, empheq}  % For advanced expressions in equations
 \usepackage{hyperref}  % For links
+\hypersetup{
+  colorlinks=true,
+  linkcolor=magenta,
+  citecolor=blue,
+  urlcolor=cyan,
+  pdftitle={Enstrophy transfer and flux in 3D turbulence},
+  pdfauthor={ARAKI Ryo}
+}
 \usepackage{graphicx}  % For figures
 \graphicspath{  % Figure path =====Remove before submission=====
   {/path/to/figures/}
@@ -20,16 +28,18 @@
 \usepackage{siunitx}  % For values with units
 \usepackage[most]{tcolorbox}  % For annotations
 % ==================================================
-% Citation with biblatex
+% Citation with biblatex =====Remove before submission=====
 % ==================================================
 \usepackage[
-    style=authoryear,
-    sorting=none,
-    backend=biber,
-    url=false,isbn=false,doi=false
+  style=ext-authoryear,
+  backend=biber,
+  sortcites=true,
+  date=year,
+  articlein=false, isbn=false, doi=false, url=false,
+  backref=true
 ]{biblatex}
 \addbibresource{./reference.bib}
-\renewbibmacro{in:}{} % Remove "in" in front of the journal name
+\usepackage{/home/raraki/.config/LaTeX/mystyle_revtex}
 ```
 
 また，参考文献の出力は
