@@ -9,12 +9,12 @@
 \usepackage{amsmath, amsfonts, amssymb, amsthm, mathtools}  % For math
 \usepackage{physics, empheq}  % For advanced expressions in equations
 \usepackage{hyperref}  % For links
-\hypersetup{
+\hypersetup{  % =====Remove before submission=====
   colorlinks=true,
   linkcolor=magenta,
   citecolor=blue,
   urlcolor=cyan,
-  pdftitle={Enstrophy transfer and flux in 3D turbulence},
+  pdftitle={PDF title},
   pdfauthor={ARAKI Ryo}
 }
 \usepackage{graphicx}  % For figures
@@ -39,7 +39,7 @@
   backref=true
 ]{biblatex}
 \addbibresource{./reference.bib}
-\usepackage{/home/raraki/.config/LaTeX/mystyle_revtex}
+\usepackage{/home/raraki/.config/LaTeX/mystyle_biblatex}
 ```
 
 また，参考文献の出力は
