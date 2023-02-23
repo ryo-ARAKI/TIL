@@ -152,6 +152,8 @@ Gist で管理している各種設定ファイルやテンプレートのリン
   - `itemize` 環境内でテキストを揃える
 - [latexdiff-vc.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/latexdiff-vc.md)
   - LaTeXdiff と git を連携する
+- [matplotlib_colour.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/matplotlib_colour.md)
+  - Matplotlib のカラーマップと同じ色を使う
 - [overflow_numbering_suppress.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/overflow_numbering_suppress.md)
   - footnote 番号（アルファベット）や `\subfloat` の図番号のオーバーフローを抑制する
 - [revtex_preamble.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/revtex_preamble.md)
