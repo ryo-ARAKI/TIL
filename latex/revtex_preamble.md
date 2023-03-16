@@ -33,7 +33,6 @@
 \usepackage[
   style=ext-authoryear,
   backend=biber,
-  sortcites=true,
   date=year,
   articlein=false, isbn=false, doi=false, url=false,
   backref=true
