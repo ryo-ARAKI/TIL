@@ -1,4 +1,6 @@
-# `jfm.cls` を使って arXiv にプレプリントを投稿する際の注意点
+# 論文雑誌テンプレートを使って arXiv にプレプリントを投稿する際の注意点
+
+## Journal of Fluid Mechanics のテンプレート `jfm.cls`
 
 - 行番号を表示しない
   - `documentclass` から `lineno` オプションを削除する
@@ -66,3 +68,14 @@
   \def\subsectionmark##1{}%
 }
 ```
+
+## IOP Publishing のテンプレート `iopart.cls`
+
+`equation*` 環境の上書きを無効化するために
+
+````latex
+\@namedef{equation*}{\[}
+\@namedef{endequation*}{\]}
+````
+
+の二行をコメントアウトする
