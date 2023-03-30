@@ -128,8 +128,8 @@ Gist で管理している各種設定ファイルやテンプレートのリン
 
 - [aligned_equations_breakline.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/aligned_equations_breakline.md)
   - `aligned` 環境下で長い方程式を改行する
-- [arxiv_with_jfm_template.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/arxiv_with_jfm_template.md)
-  - `jfm.cls` を使って arXiv にプレプリントを投稿する際の注意点
+- [arxiv_with_template.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/arxiv_with_template.md)
+  - いろいろな論文雑誌のテンプレートを使って arXiv にプレプリントを投稿する際の注意点
 - [bib_arXiv.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/bib_arXiv.md)
   - `.bib` ファイルでの arXiv の論文のフォーマット
 - [bib_check_lacking_field.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/bib_check_lacking_field.md)
