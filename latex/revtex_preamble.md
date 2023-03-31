@@ -6,7 +6,7 @@
 % ==================================================
 % Add packages
 % ==================================================
-\usepackage{amsmath, amsfonts, amssymb, amsthm, mathtools}  % For math
+\usepackage{amsmath, amsfonts, amssymb, amsthm, mathtools, ascmac}  % For math
 \usepackage{physics, empheq}  % For advanced expressions in equations
 \usepackage{hyperref}  % For links
 \hypersetup{  % =====Remove before submission=====
