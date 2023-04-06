@@ -164,4 +164,8 @@
   ERROR: You must give at least one requirement to install (see "pip help install")
   ```
 
+### `find ./ -type f -name 'filename' -exec mv {} {}_renamed \;` 現在の階層以下から "filename" というファイルを検索し，ファイル名の末尾に "_renamed" を追加する
+
+- cf. [How to rename multiple files using find](https://unix.stackexchange.com/a/227671)
+
 ### TODO
