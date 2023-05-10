@@ -35,6 +35,7 @@
   backend=biber,
   date=year,
   articlein=false, isbn=false, doi=false, url=false,
+  uniquename=false,
   backref=true
 ]{biblatex}
 \addbibresource{./reference.bib}
