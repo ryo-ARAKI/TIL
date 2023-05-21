@@ -144,6 +144,8 @@ Gist で管理している各種設定ファイルやテンプレートのリン
   - `empheq` 環境下で数式番号をまとめる
 - [eqref_refer.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/eqref_refer.md)
   - `\eqref` で数式を参照する
+- [footnote_inside_caption.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/footnote_inside_caption.md)
+  - Caption中に `\footnote` を挿入する
 - [holizontal_line_for_document_width.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/holizontal_line_for_document_width.md)
   - 文章幅と同じ長さの横線を引く
 - [hyperref_setup.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/hyperref_setup.md)
