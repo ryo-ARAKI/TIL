@@ -11,9 +11,9 @@
   }
   \label{fig:example}
 \end{figure}
-```
 
 Figure~\ref{fig:example} shows an example figure with footnote in its caption.
+```
 
 ## うまく表示される例
 
@@ -26,10 +26,10 @@ Figure~\ref{fig:example} shows an example figure with footnote in its caption.
   }
   \label{fig:example}
 \end{figure}
-```
 
 Figure~\ref{fig:example} shows an example figure with footnote in its caption.
 \footnotetext{Footnote to the figure caption.}
+```
 
 ## 参考リンク
 
