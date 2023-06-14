@@ -54,6 +54,8 @@ Gist で管理している各種設定ファイルやテンプレートのリン
   - Beamerで参考文献を出力する
 - [handout_with_complex_animation.md](https://github.com/ryo-ARAKI/TIL/blob/master/beamer/handout_with_complex_animation.md)
   - アニメーションを handout に反映する
+- [hfill_in_frametitle.md](https://github.com/ryo-ARAKI/TIL/blob/master/beamer/hfill_in_frametitle.md)
+  - Frametitle 中で右揃えする
 - [itemize_animation.md](https://github.com/ryo-ARAKI/TIL/blob/master/beamer/itemize_animation.md)
   - `itemize` 環境にアニメーションをつける
 - [itemize_temporarily_different_bullet.md](https://github.com/ryo-ARAKI/TIL/blob/master/beamer/itemize_temporarily_different_bullet.md)
