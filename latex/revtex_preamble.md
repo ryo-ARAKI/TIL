@@ -21,9 +21,6 @@
 \graphicspath{  % Figure path =====Remove before submission=====
   {/path/to/figures/}
 }
-\usepackage[labelformat=simple]{subcaption}  % For subcaption environments =====Remove before submission=====
-\renewcommand\thesubfigure{~(\alph{subfigure})}  % print like Fig.~1~(a) =====Remove before submission=====
-\usepackage{tikz}  % For figure annotations =====Remove before submission=====
 \usepackage[svgnames]{xcolor}  % For additional colors
 \usepackage{siunitx}  % For values with units
 \usepackage[most]{tcolorbox}  % For annotations
