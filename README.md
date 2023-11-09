@@ -116,10 +116,12 @@ Gist で管理している各種設定ファイルやテンプレートのリン
 <details>
 <summary>Juliaのtipsリスト</summary>
 
-- [Unitful.jl](https://github.com/ryo-ARAKI/TIL/blob/master/julia/Unitful.jl)
-  - `Unitful` パッケージを使った単位つき数値の計算のサンプルプログラム
 - [package_list_for_physics_simulation.md](https://github.com/ryo-ARAKI/TIL/blob/master/julia/package_list_for_physics_simulation.md)
   - 物理シミュレーション/数値計算に役立つ Julia のパッケージリスト
+- [performance_improvement.md](https://github.com/ryo-ARAKI/TIL/blob/master/julia/performance_improvement.md)
+  - Juilaで実装したコードを高速化する方法
+- [Unitful.jl](https://github.com/ryo-ARAKI/TIL/blob/master/julia/Unitful.jl)
+  - `Unitful` パッケージを使った単位つき数値の計算のサンプルプログラム
 
 </details>
 
