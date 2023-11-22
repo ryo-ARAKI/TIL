@@ -52,6 +52,8 @@ Gist で管理している各種設定ファイルやテンプレートのリン
   - Beamerで総スライド番号に影響しない補遺スライドを作成する
 - [bibliography_break_frame.md](https://github.com/ryo-ARAKI/TIL/blob/master/beamer/bibliography_break_frame.md)
   - Beamerで参考文献を出力する
+- [change_default_font_size.md](https://github.com/ryo-ARAKI/TIL/blob/master/beamer/change_default_font_size.md)
+  - デフォルトのフォントサイズを変更する
 - [handout_with_complex_animation.md](https://github.com/ryo-ARAKI/TIL/blob/master/beamer/handout_with_complex_animation.md)
   - アニメーションを handout に反映する
 - [hfill_in_frametitle.md](https://github.com/ryo-ARAKI/TIL/blob/master/beamer/hfill_in_frametitle.md)
