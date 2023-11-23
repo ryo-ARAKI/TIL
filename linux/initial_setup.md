@@ -66,7 +66,7 @@ $ gsettings set org.gnome.shell.extensions.ding show-trash true
 ```
 
 - デスクトップ背景を単色にする
-  - HTMLカラーコードは例えば[日本の伝統色](https://nipponcolors.com/)とかから探す
+  - HTMLカラーコードは例えば[日本の伝統色](https://nipponcolors.com/)から探す
 
 ```linux
 $ gsettings set org.gnome.desktop.background picture-uri ''
