@@ -205,6 +205,16 @@ Gist で管理している各種設定ファイルやテンプレートのリン
 
 </details>
 
+## [論文/原稿](https://github.com/ryo-ARAKI/TIL/tree/master/manuscript)
+
+<details>
+<summary>論文/原稿のtipsリスト</summary>
+
+- [add_CC-BY_license.md](https://github.com/ryo-ARAKI/TIL/blob/master/manuscript/add_CC-BY_license.md)
+  - プレプリントへのCC-BYライセンスの付与
+
+</details>
+
 ## [Python](https://github.com/ryo-ARAKI/TIL/tree/master/python)
 
 <details>
