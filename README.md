@@ -208,8 +208,6 @@ Gist で管理している各種テンプレートのリンクです．
   - fish shell における永続的な `PATH` の追加/削除
 - [gnome_shell_extensions.md](https://github.com/ryo-ARAKI/TIL/blob/master/linux/gnome_shell_extensions.md)
   - GNOME shell extensionsのリスト
-- [initial_setup.md](https://github.com/ryo-ARAKI/TIL/blob/master/linux/initial_setup.md)
-  - Ubuntu日本語Remixをインストール後におこなう初期設定
 - [shell_interactive.md](https://github.com/ryo-ARAKI/TIL/blob/master/linux/shell_interactive.md)
   - シェルスクリプトにおける Yes/No の選択に応じた対話的実行
 - [shell_iteration.md](https://github.com/ryo-ARAKI/TIL/blob/master/linux/shell_iteration.md)
