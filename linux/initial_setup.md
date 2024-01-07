@@ -11,6 +11,8 @@ Release:	22.04
 Codename:	jammy
 ```
 
+## OS設定
+
 1. システムを更新して再起動する
 
    ```linux
@@ -89,15 +91,57 @@ Codename:	jammy
    - フォント：等幅テキスト：Monospace Regular 13
    - フォント：レガシーなウィンドウタイトル：IPA Pゴシック Bold 11
 
-## To Do
+### To Do
 
-- Chrome
-- VSCode
-  - snap版ではなくdeb版
-  - 設定ファイルを見直す
-- GitHub
-  - sshでなくGitHub CLIで設定する
-- ssh
+1. SSHの設定
+   - 鍵の生成，登録
+2. Git/GitHub
+   - SSHでなくGitHub CLIで設定する
+
+## VSCodeのインストールと設定
+
+- snap版ではなくdeb版をインストールすること（前者だと日本語環境が作れない）
+- 設定ファイルは[ソフトウェアの設定ファイル](https://github.com/ryo-ARAKI/TIL?tab=readme-ov-file#%E8%A8%AD%E5%AE%9A%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB)を参照せよ
+- 導入している拡張機能は以下の通り：
+
+  ```linux
+  $ code --list-extensions
+  brunnerh.insert-unicode
+  christian-kohler.path-intellisense
+  donjayamanne.githistory
+  eamodio.gitlens
+  Equinusocio.vsc-material-theme
+  equinusocio.vsc-material-theme-icons
+  esbenp.prettier-vscode
+  fortran-lang.linter-gfortran
+  IBM.output-colorizer
+  James-Yu.latex-workshop
+  jprestidge.theme-material-theme
+  julialang.language-julia
+  monokai.theme-monokai-pro-vscode
+  mosapride.zenkaku
+  MS-CEINTL.vscode-language-pack-ja
+  ms-python.python
+  ms-python.vscode-pylance
+  ms-toolsai.jupyter
+  ms-toolsai.jupyter-keymap
+  ms-toolsai.jupyter-renderers
+  ms-toolsai.vscode-jupyter-cell-tags
+  ms-toolsai.vscode-jupyter-slideshow
+  ms-vscode-remote.remote-ssh
+  ms-vscode-remote.remote-ssh-edit
+  ms-vscode.atom-keybindings
+  ms-vscode.cpptools
+  ms-vscode.remote-explorer
+  oderwat.indent-rainbow
+  PKief.material-icon-theme
+  sgryjp.japanese-word-handler
+  shd101wyy.markdown-preview-enhanced
+  streetsidesoftware.code-spell-checker
+  torn4dom4n.latex-support
+  vsls-contrib.gistfs
+  yzhang.markdown-all-in-one
+  ```
 
 ## 参考にしたページ
 
