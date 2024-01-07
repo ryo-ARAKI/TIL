@@ -4,20 +4,13 @@ Memorandum of Today I Learned (in Japanese)
 
 今日学んだこと（Today I Learned TIL）のメモ
 
-## テンプレート/設定ファイル
+## 設定ファイル
 
 <details>
-<summary>テンプレート/設定ファイルのリスト</summary>
+<summary>設定ファイルのリスト</summary>
 
-Gist で管理している各種設定ファイルやテンプレートのリンクをまとめる．
+Gist で管理している各種設定ファイルのリンクです．
 
-- [LaTeX template](https://gist.github.com/ryo-ARAKI/9aa9ce4f0fab42a758e1370ad1eb4487)
-  - LaTeX のテンプレート
-  - [latex_template.tex](https://gist.github.com/ryo-ARAKI/9aa9ce4f0fab42a758e1370ad1eb4487#file-latex_template-tex) ：和文のテンプレート
-  - [beamer_template.tex](https://gist.github.com/ryo-ARAKI/9aa9ce4f0fab42a758e1370ad1eb4487#file-beamer_template-tex) ：スライドのテンプレート
-  - [beamer_template_poster.tex](https://gist.github.com/ryo-ARAKI/9aa9ce4f0fab42a758e1370ad1eb4487#file-beamer_template_poster-tex) ：ポスターのテンプレート
-  - [beamer_template_flash_talk.tex](https://gist.github.com/ryo-ARAKI/9aa9ce4f0fab42a758e1370ad1eb4487#file-beamer_template_flash_talk-tex) ：フラッシュトークのテンプレート
-  - [standalone_figure.tex](https://gist.github.com/ryo-ARAKI/9aa9ce4f0fab42a758e1370ad1eb4487#file-standalone_figure-tex) ：TikZ を用いたスタンドアロン図のテンプレート
 - [config.fish](https://gist.github.com/ryo-ARAKI/9d5e85d7be10863d515850b2ce2182e3)
   - [fish shell](https://fishshell.com/) の設定ファイル
 - [LaTeX `.sty`](https://gist.github.com/ryo-ARAKI/c4f55e2c4c57a5997700160cc6ea55df)
@@ -40,6 +33,23 @@ Gist で管理している各種設定ファイルやテンプレートのリン
 - [.xbindkeysrc](https://gist.github.com/ryo-ARAKI/b17adac7419087a8ae821ebd1b30cd81)
   - 多ボタンマウスの Linux 用設定ファイル
   - Logitech MX Master 2S
+
+</details>
+
+## テンプレート
+
+<details>
+<summary>テンプレートのリスト</summary>
+
+Gist で管理している各種テンプレートのリンクです．
+
+- [LaTeX template](https://gist.github.com/ryo-ARAKI/9aa9ce4f0fab42a758e1370ad1eb4487)
+  - LaTeX のテンプレート
+  - [latex_template.tex](https://gist.github.com/ryo-ARAKI/9aa9ce4f0fab42a758e1370ad1eb4487#file-latex_template-tex) ：和文のテンプレート
+  - [beamer_template.tex](https://gist.github.com/ryo-ARAKI/9aa9ce4f0fab42a758e1370ad1eb4487#file-beamer_template-tex) ：スライドのテンプレート
+  - [beamer_template_poster.tex](https://gist.github.com/ryo-ARAKI/9aa9ce4f0fab42a758e1370ad1eb4487#file-beamer_template_poster-tex) ：ポスターのテンプレート
+  - [beamer_template_flash_talk.tex](https://gist.github.com/ryo-ARAKI/9aa9ce4f0fab42a758e1370ad1eb4487#file-beamer_template_flash_talk-tex) ：フラッシュトークのテンプレート
+  - [standalone_figure.tex](https://gist.github.com/ryo-ARAKI/9aa9ce4f0fab42a758e1370ad1eb4487#file-standalone_figure-tex) ：TikZ を用いたスタンドアロン図のテンプレート
 
 </details>
 
