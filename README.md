@@ -4,23 +4,6 @@ Memorandum of Today I Learned (in Japanese)
 
 今日学んだこと（Today I Learned TIL）のメモ
 
-## テンプレート
-
-<details>
-<summary>テンプレートのリスト</summary>
-
-Gist で管理している各種テンプレートのリンクです．
-
-- [LaTeX template](https://gist.github.com/ryo-ARAKI/9aa9ce4f0fab42a758e1370ad1eb4487)
-  - LaTeX のテンプレート
-  - [latex_template.tex](https://gist.github.com/ryo-ARAKI/9aa9ce4f0fab42a758e1370ad1eb4487#file-latex_template-tex) ：和文のテンプレート
-  - [beamer_template.tex](https://gist.github.com/ryo-ARAKI/9aa9ce4f0fab42a758e1370ad1eb4487#file-beamer_template-tex) ：スライドのテンプレート
-  - [beamer_template_poster.tex](https://gist.github.com/ryo-ARAKI/9aa9ce4f0fab42a758e1370ad1eb4487#file-beamer_template_poster-tex) ：ポスターのテンプレート
-  - [beamer_template_flash_talk.tex](https://gist.github.com/ryo-ARAKI/9aa9ce4f0fab42a758e1370ad1eb4487#file-beamer_template_flash_talk-tex) ：フラッシュトークのテンプレート
-  - [standalone_figure.tex](https://gist.github.com/ryo-ARAKI/9aa9ce4f0fab42a758e1370ad1eb4487#file-standalone_figure-tex) ：TikZ を用いたスタンドアロン図のテンプレート
-
-</details>
-
 ## [Beamer](https://github.com/ryo-ARAKI/TIL/tree/master/beamer)
 
 <details>
