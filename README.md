@@ -23,15 +23,15 @@ Gist で管理している各種設定ファイルのリンクです．
   - [.latexmkrc_revtex](https://gist.github.com/ryo-ARAKI/8a256ef600325b0344bbc3990818b691#file-latexmkrc_revtex) ：欧文コンパイル用設定ファイル
   - [.latexmkrc_uplatex](https://gist.github.com/ryo-ARAKI/8a256ef600325b0344bbc3990818b691#file-latexmkrc_uplatex) ：和文コンパイル用設定ファイル
 - [setting.json](https://gist.github.com/ryo-ARAKI/b4a54125e7922d2166f7fa7373c0f6dd)
-  - エディタである VSCode の設定ファイル
+  - エディタである [VSCode](https://code.visualstudio.com/) の設定ファイル
 - [.screenrc](https://gist.github.com/ryo-ARAKI/07923755368e1f4ee0f67778a1cf2bca)
-  - ターミナルエミュレーションソフトである screen の設定ファイル
+  - ターミナルエミュレーションソフトである [screen](https://www.gnu.org/software/screen/) の設定ファイル
 - [starship.toml](https://gist.github.com/ryo-ARAKI/48a11585299f9032fa4bda60c9bba593)
   - ターミナルのプロンプトを装飾してくれる [Starship](https://starship.rs/) の設定ファイル
 - [config](https://gist.github.com/ryo-ARAKI/f4031daf4d4c388838b123705aee8893)
   - ターミナルエミュレータである [Terminator](https://gnome-terminator.org/) の設定ファイル
 - [.vimrc](https://gist.github.com/ryo-ARAKI/a9e64763c1f7d6eb1e210cb13388fd43)
-  - vim の設定ファイル
+  - エディタである [vim](https://www.vim.org/) の設定ファイル
 - [.xbindkeysrc](https://gist.github.com/ryo-ARAKI/b17adac7419087a8ae821ebd1b30cd81)
   - 多ボタンマウスの Linux 用設定ファイル
   - Logitech MX Master 2S
