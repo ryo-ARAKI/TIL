@@ -1,7 +1,15 @@
 # 複数のファイルに対する繰り返し処理
 
+以下のシェルスクリプト `combine_files.sh` を
+
+```bash
+$ combine_files.sh data1 data2 data3 ./
+```
+
+と実行すると，各サブディレクトリ中の `file[1-2].d` が結合されてスクリプトを実行したディレクトリ中に保存される．
+
 ```sh
-array_file=("file_a" "file_b" "file_c")
+array_file=("file1.d" "file2.d")
 OBJ=${!#}  # Last argument
 
 cd "$(dirname "$0")"  # Move to the directory which has this shell script
