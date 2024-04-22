@@ -7,7 +7,6 @@
 ## [CoverflowAltTab](https://github.com/dmo60/CoverflowAltTab)
 
 - Alt+Tabでのウィンドウ切り替えをより大きく表示する
-- プライマリモニターにスイッチャーを常に表示：On
 - アプリアイコンのスタイル：オーバーレイ
 
 ## [Dash to Panel](https://github.com/home-sweet-gnome/dash-to-panel)
@@ -27,7 +26,8 @@
 
 - アプリのアイコンにマウスを当てたときのアニメーションを有効にする：On
 - 実行中インジケーターの位置：上
-- 実行中インジケーターのスタイル：ダッシュ
+- 実行中インジケーターのスタイル（フォーカス）：ソリッド
+- 実行中インジケーターのスタイル（非フォーカス）：ダッシュ
 
 ### Behavior
 
@@ -41,6 +41,7 @@
 
 - CPU負荷をグラフィカルに表示する
 - Sleeping threshold = 20
+- Displaying items = Character only
 
 ## [Tactile](https://t.co/jyTjYaAHvV)
 
@@ -53,20 +54,6 @@
   - Background color: #26306B（半透明）
   - Grid size: 6×3
 - 色は例えば[日本の伝統色](https://nipponcolors.com/)から探す
-
-### Keyboard shortcuts
-
-デフォルトのまま
-
-### Appearance
-
-- Colormap is choosen from [svgnames Colors](https://www.latextemplates.com/svgnames-colors)
-  - Text color: Snow
-  - Border color: Gold
-  - Background color: Navy (plus transparency)
-- Grid size 6×3
-  - Layout 1: 6×2 (for main monitor)
-  - Layout 2: 1×3 (for sub monitor)
 
 ## おすすめ拡張機能を紹介している記事
 
