@@ -53,6 +53,17 @@
   - `-d` 必要に応じてディレクトリを作成（ `--make-directories` ）
   - `-m` コピーしたファイルの更新時刻をコピー元と揃える（ `--preserve-modification-time` ）
 
+### `find . -type f -exec grep -Iq . {} \; -and -exec sed -i 's/[[:space:]]\+$//' {} +` 現在のディレクトリ以下のファイルに存在する trailing whitespace を全て削除する
+
+- `exec grep -Iq . {} \;` ファイルがテキストファイルかどうかをチェックし，バイナリファイルの場合は終了コード 1 を返す
+- `sed -i 's/[[:space:]]\+$//' {} +` 該当するファイルの行末の空白を削除
+  - `-i` ファイルをインプレースで編集
+  - `s/[[:space:]]\+$//` 正規表現を使って行末の空白を削除
+
+### `find ./ -type f -name 'filename' -exec mv {} {}_renamed \;` 現在の階層以下から `filename` というファイルを検索し，ファイル名の末尾に `_renamed` を追加する
+
+- cf. [How to rename multiple files using find](https://unix.stackexchange.com/a/227671)
+
 ### `rsync -n -arvt --exclude '*.bmp' user@remote_id:/remote/Dir/ /local/dir/` リモート（ `remote_id` ）にユーザー（ `user` ）でログインし， `/remote/Dir/` 以下の階層から `*bmp` 以外の拡張子のファイルを _ディレクトリ構造含めて_ ローカルの `local/dir/` にコピーする．
 
 - `rsync` ファイルやディレクトリ環境を同期する
@@ -103,6 +114,8 @@
 - `inkscape --export-pdf=filename.pdf --export-area-drawing --export-latex filename.svg` PDF+LaTeX（テキスト情報）に変換
 
 ### `jpegoptim --dest=compress/ -S300 hoge.jpg` `hoge.jpg`を 300KB に圧縮して`./compress/`ディレクトリに保存
+
+### `ls *.h5 | xargs du -ch | grep total$` 現在のディレクトリ中の`.h5` ファイルの総容量を表示
 
 ### `tar -czvf hoge.tgz hoge/` `hoge`/ ディレクトリ以下を gzip 形式で圧縮
 
@@ -163,9 +176,5 @@
   Defaulting to user installation because normal site-packages is not writeable
   ERROR: You must give at least one requirement to install (see "pip help install")
   ```
-
-### `find ./ -type f -name 'filename' -exec mv {} {}_renamed \;` 現在の階層以下から "filename" というファイルを検索し，ファイル名の末尾に "_renamed" を追加する
-
-- cf. [How to rename multiple files using find](https://unix.stackexchange.com/a/227671)
 
 ### TODO
