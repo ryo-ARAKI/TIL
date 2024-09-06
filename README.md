@@ -193,6 +193,8 @@ Memorandum of Today I Learned (in Japanese)
   - 数列を空白区切りで出力する
 - [scatter_plot_with_raster.md](https://github.com/ryo-ARAKI/TIL/blob/master/python/scatter_plot_with_raster.md)
   - Scatter プロットの scatter 部分のみをラスタライズして高速化する
+- [venv.md](https://github.com/ryo-ARAKI/TIL/blob/master/python/venv.md)
+  - Python の `venv` 仮想環境を設定し，自動で有効化/無効化する
 
 </details>
 
