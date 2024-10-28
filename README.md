@@ -189,6 +189,8 @@ Memorandum of Today I Learned (in Japanese)
   - Matplotlib で異なるスケールのデータを$x$軸を共有してプロットするサンプルプログラム
 - [matplotlib_ticks_position.py](https://github.com/ryo-ARAKI/TIL/blob/master/python/matplotlib_ticks_position.py)
   - Matplotlib で軸の `ticks` 位置を調整するサンプルプログラム
+- [no_auto_pep8_for_specific_lines.md](https://github.com/ryo-ARAKI/TIL/blob/master/python/no_auto_pep8_for_specific_lines.md)
+  - 特定の行に VSCode の自動整形を作用させない
 - [numerical_sequence_with_white_space.md](https://github.com/ryo-ARAKI/TIL/blob/master/python/numerical_sequence_with_white_space.md)
   - 数列を空白区切りで出力する
 - [scatter_plot_with_raster.md](https://github.com/ryo-ARAKI/TIL/blob/master/python/scatter_plot_with_raster.md)
