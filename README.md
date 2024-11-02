@@ -10,9 +10,9 @@ Memorandum of Today I Learned (in Japanese)
 <summary>Beamerのtipsリスト</summary>
 
 - [backup_slide.md](https://github.com/ryo-ARAKI/TIL/blob/master/beamer/backup_slide.md)
-  - Beamerで総スライド番号に影響しない補遺スライドを作成する
+  - Beamer で総スライド番号に影響しない補遺スライドを作成する
 - [bibliography_break_frame.md](https://github.com/ryo-ARAKI/TIL/blob/master/beamer/bibliography_break_frame.md)
-  - Beamerで参考文献を出力する
+  - Beamer で参考文献を出力する
 - [change_default_font_size.md](https://github.com/ryo-ARAKI/TIL/blob/master/beamer/change_default_font_size.md)
   - デフォルトのフォントサイズを変更する
 - [handout_with_complex_animation.md](https://github.com/ryo-ARAKI/TIL/blob/master/beamer/handout_with_complex_animation.md)
@@ -82,7 +82,7 @@ Memorandum of Today I Learned (in Japanese)
 - [package_list_for_physics_simulation.md](https://github.com/ryo-ARAKI/TIL/blob/master/julia/package_list_for_physics_simulation.md)
   - 物理シミュレーション/数値計算に役立つ Julia のパッケージリスト
 - [performance_improvement.md](https://github.com/ryo-ARAKI/TIL/blob/master/julia/performance_improvement.md)
-  - Juilaで実装したコードを高速化する方法
+  - Juila で実装したコードを高速化する方法
 - [Unitful.jl](https://github.com/ryo-ARAKI/TIL/blob/master/julia/Unitful.jl)
   - `Unitful` パッケージを使った単位つき数値の計算のサンプルプログラム
 
@@ -112,7 +112,7 @@ Memorandum of Today I Learned (in Japanese)
 - [eqref_refer.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/eqref_refer.md)
   - `\eqref` で数式を参照する
 - [footnote_inside_caption.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/footnote_inside_caption.md)
-  - Caption中に `\footnote` を挿入する
+  - Caption 中に `\footnote` を挿入する
 - [holizontal_line_for_document_width.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/holizontal_line_for_document_width.md)
   - 文章幅と同じ長さの横線を引く
 - [hyperref_setup.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/hyperref_setup.md)
@@ -126,7 +126,7 @@ Memorandum of Today I Learned (in Japanese)
 - [overflow_numbering_suppress.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/overflow_numbering_suppress.md)
   - footnote 番号（アルファベット）や `\subfloat` の図番号のオーバーフローを抑制する
 - [revtex_preamble.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/revtex_preamble.md)
-  - REVTeXなど論文執筆時の `.tex` テンプレートに追加するパッケージや設定
+  - REVTeX など論文執筆時の `.tex` テンプレートに追加するパッケージや設定
 - [siunitx.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/siunitx.md)
   - siunitx を使った単位付き数値を math 環境で使う際の最適解
 - [super_sub_script_in_text.md](https://github.com/ryo-ARAKI/TIL/blob/master/latex/super_sub_script_in_text.md)
@@ -168,7 +168,7 @@ Memorandum of Today I Learned (in Japanese)
 <summary>論文/原稿のtipsリスト</summary>
 
 - [add_CC-BY_license.md](https://github.com/ryo-ARAKI/TIL/blob/master/manuscript/add_CC-BY_license.md)
-  - プレプリントへのCC-BYライセンスの付与
+  - プレプリントへの CC-BY ライセンスの付与
 
 </details>
 
@@ -177,6 +177,8 @@ Memorandum of Today I Learned (in Japanese)
 <details>
 <summary>Pythonのtipsリスト</summary>
 
+- [import_local_module_containing_period.md](https://github.com/ryo-ARAKI/TIL/blob/master/python/import_local_module_containing_period.md)
+  - ファイル名にピリオドが含まれるファイルからモジュールを読み込む
 - [lineplot_with_arrow_annotation.py](https://github.com/ryo-ARAKI/TIL/blob/master/python/lineplot_with_arrow_annotation.py)
   - Matplotlib の `plt.plot` に矢印のアノーテーションをつけるサンプルプログラム
 - [maintain_same_margin_for_different_label.md](https://github.com/ryo-ARAKI/TIL/blob/master/python/maintain_same_margin_for_different_label.md)
@@ -206,7 +208,7 @@ Memorandum of Today I Learned (in Japanese)
 <summary>TikZのtipsリスト</summary>
 
 - [bezier_curve.md](https://github.com/ryo-ARAKI/TIL/blob/master/tikz/bezier_curve.md)
-  - Bézier曲線 control points で制御する
+  - Bézier 曲線 control points で制御する
 - [draw_vortex.md](https://github.com/ryo-ARAKI/TIL/blob/master/tikz/draw_vortex.md)
   - 渦を描く
 - [shadow_even_odd.md](https://github.com/ryo-ARAKI/TIL/blob/master/tikz/shadow_even_odd.md)
@@ -225,7 +227,7 @@ Memorandum of Today I Learned (in Japanese)
 
 - 大規模データを扱う数値計算
   - 変数の精度をよく考える．ポスト解析に倍精度は必要だろうか？
-  - バイナリ（他の言語やソフトウェアで読み込むのが大変）ではなくHDF5（階層化されている&様々な言語でAPIが用意されている）を使う
+  - バイナリ（他の言語やソフトウェアで読み込むのが大変）ではなく HDF5（階層化されている&様々な言語で API が用意されている）を使う
   - 物理量の制約を利用する．例えば三次元の非圧縮流速場なら，二成分を保存しておけば非圧縮条件から残る一成分を復元できる
 - HDF ファイル
   - Fortran90 から HDF ファイル形式への書き込み，読み取り方法
