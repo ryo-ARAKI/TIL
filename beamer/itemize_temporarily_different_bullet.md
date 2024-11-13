@@ -6,7 +6,7 @@
 \newenvironment{redenv}{\only{\setbeamercolor{local structure}{fg=red}}}{}
 ```
 
-のように書き， `itemize` 環境中で次のようにすれば，一部だけ bullet の色を変えることができる．
+のように書き， `itemize` 環境中で次のようにすれば，一部だけbulletの色を変えることができる．
 
 ```latex
 \begin{frame}

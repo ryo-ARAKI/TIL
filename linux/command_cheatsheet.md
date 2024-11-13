@@ -1,10 +1,10 @@
-# Linux の（やや複雑な）コマンドチートシート
+# Linuxの（やや複雑な）コマンドチートシート
 
-- 前提：Linux の一般的なコマンド（ `ls` `mv` `cp` `rm` `cd` ...）は理解しており，使えること
+- 前提：Linuxの一般的なコマンド（ `ls` `mv` `cp` `rm` `cd` ...）は理解しており，使えること
   - 一般的なコマンドについては [Unix/Linux コマンドリファレンス](https://kanemotilevel.com/wp/gazou/unix.pdf) などを参照のこと
 - 目的：基本的なコマンドのオプションやパイプを使った組み合わせで構成されるやや複雑な（=いちいち覚えていられない）操作のチートシート
 
-## 一般的な Linux マシン
+## 一般的なLinuxマシン
 
 ### `ls -lht` 細情報付きファイル一覧を，人間の読みやすい形式でのファイルサイズ及び時系列順で表示
 
@@ -53,7 +53,7 @@
   - `-d` 必要に応じてディレクトリを作成（ `--make-directories` ）
   - `-m` コピーしたファイルの更新時刻をコピー元と揃える（ `--preserve-modification-time` ）
 
-### `find . -type f -exec grep -Iq . {} \; -and -exec sed -i 's/[[:space:]]\+$//' {} +` 現在のディレクトリ以下のファイルに存在する trailing whitespace を全て削除する
+### `find . -type f -exec grep -Iq . {} \; -and -exec sed -i 's/[[:space:]]\+$//' {} +` 現在のディレクトリ以下のファイルに存在するtrailing whitespaceを全て削除する
 
 - `exec grep -Iq . {} \;` ファイルがテキストファイルかどうかをチェックし，バイナリファイルの場合は終了コード 1 を返す
 - `sed -i 's/[[:space:]]\+$//' {} +` 該当するファイルの行末の空白を削除
@@ -81,7 +81,7 @@
 - ホームディレクトリで実行すること
 - `du` ファイル・ディレクトリのサイズ（ディスク使用量）を表示
   - `-m` メガバイト単位で表示
-    - `-h` human-readable な形式で表示，しかしこのとき，例えば `289M` -> `2.7G` のような順序での表示となってしまう...
+    - `-h` human-readableな形式で表示，しかしこのとき，例えば `289M` -> `2.7G` のような順序での表示となってしまう...
   - `-d 1` 測定する階層の深さを 1 に指定． `--max-depth=1` と同値
 - `|sort -rn` 降順でソート
 - `| head -10` 最初の 10 件を表示
@@ -109,28 +109,28 @@
   - `-w` 変数を指定したパラメータに変更する
   - `vm.drop_caches=3` 1：ページキャッシュ，2：ダーティキャッシュと inode，3：ページキャッシュ，ダーティキャッシュと inode を破棄する
 
-### `inkscape --export-pdf=filename.pdf --export-area-drawing --export-text-to-path filename.svg` inkspace で作成した`svg`ファイルを，テキストをパスとして PDF に変換
+### `inkscape --export-pdf=filename.pdf --export-area-drawing --export-text-to-path filename.svg` inkspaceで作成した`svg`ファイルを，テキストをパスとしてPDFに変換
 
 - `inkscape --export-pdf=filename.pdf --export-area-drawing --export-latex filename.svg` PDF+LaTeX（テキスト情報）に変換
 
-### `jpegoptim --dest=compress/ -S300 hoge.jpg` `hoge.jpg`を 300KB に圧縮して`./compress/`ディレクトリに保存
+### `jpegoptim --dest=compress/ -S300 hoge.jpg` `hoge.jpg`を300KBに圧縮して`./compress/`ディレクトリに保存
 
 ### `ls *.h5 | xargs du -ch | grep total$` 現在のディレクトリ中の`.h5` ファイルの総容量を表示
 
-### `tar -czvf hoge.tgz hoge/` `hoge`/ ディレクトリ以下を gzip 形式で圧縮
+### `tar -czvf hoge.tgz hoge/` `hoge`/ ディレクトリ以下をgzip形式で圧縮
 
 - `tar` アーカイブをおこなう
   - `-c`新しいアーカイブを作成する． `--create` と同値
-  - `-z` ファイルを gzip 形式で圧縮する． `--gzip` と同値
+  - `-z` ファイルをgzip形式で圧縮する． `--gzip` と同値
   - `-v`ファイルの処理状況をターミナルに出力する． `--verbose` と同値
   - `-f`アーカイブファイル名を指定する．
 - 解凍の際は `tar -xzvf hoge.tgz` でファイルを展開できる．
   - `-x` ファイルを展開する． `--extract` ，あるいは `--get` と同値
   - `-C /target/dir/` で展開先のディレクトリを指定
 
-### `pdftk original.pdf cat 1-5 output modified.pdf` PDF ファイルの一部を切り出して保存
+### `pdftk original.pdf cat 1-5 output modified.pdf` PDFファイルの一部を切り出して保存
 
-### `/bin/bash hoge` bash shell でプログラムを実行する
+### `/bin/bash hoge` bash shellでプログラムを実行する
 
 - fish shell で実行すると
   `The file hoge is marked as an executable but could not be run by the operating system.`
@@ -147,21 +147,21 @@
   - `-r` フレームレート(FPS)を指定
   - `-vb` video bitrate を設定
 
-### `gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/printer -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output.pdf input.pdf` PDF 中の画像サイズを縮小してファイルサイズを小さくする
+### `gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/printer -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output.pdf input.pdf` PDF中の画像サイズを縮小してファイルサイズを小さくする
 
 - `gs` ghostscript
   - `-sDEVICE=pdfwrite`
   - `-dCompatibilityLevel=1.4`
-  - `-dPDFSETTINGS=/printer` PDF サイズの指定
+  - `-dPDFSETTINGS=/printer` PDFサイズの指定
     - `/screen` → `/ebook` → ``/printer` → `/prepress` → `/default` の順に画質が良くなる（ファイルサイズが大きくなる）
   - `-dNOPAUSE`
   - `-dQUIET`
   - `-dBATCH`
 
-### `cut -c10-20 file.d | sort -n | uniq -c | sort -nr` `file.d`中の行の先頭から 10〜20 文字目で繰り返されるパターンを検知し，その頻度とともに表示する
+### `cut -c10-20 file.d | sort -n | uniq -c | sort -nr` `file.d`中の行の先頭から10〜20文字目で繰り返されるパターンを検知し，その頻度とともに表示する
 
 - `cut` ファイルを読み込み，各業から指定した部分を切り出す
-  - `-c10-20` 出力リスト（いまの場合，行の先頭から 10〜20 文字目）． `--character 10-20` と同値
+  - `-c10-20` 出力リスト（いまの場合，行の先頭から10〜20文字目）． `--character 10-20` と同値
 - `uniq` ソートされているファイル中の重複を削除する
   - `-c` 出現回数を行の先頭に表示する． `	--count` と同値
 

@@ -1,6 +1,6 @@
-# Matplotlib のカラーマップと同じ色を使う
+# Matplotlibのカラーマップと同じ色を使う
 
-まず， Pythonのスクリプト中で使用している色を記録する．
+まず，Pythonのスクリプト中で使用している色を記録する．
 
 ```python
 import matplotlib

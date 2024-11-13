@@ -1,6 +1,6 @@
-# footnote 番号（アルファベット）や `\subfloat` の図番号のオーバーフローを抑制する
+# footnote番号（アルファベット）や `\subfloat` の図番号のオーバーフローを抑制する
 
-- footnote 番号をページごとにリセットする
+- footnote番号をページごとにリセットする
 
 ```latex
 \usepackage[perpage]{footmisc}

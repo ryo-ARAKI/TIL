@@ -12,7 +12,7 @@
 \end{empheq}
 ```
 
-- さらに複数ヶ所で align したいとき： `begin{alignedat}` 環境を使う
+- さらに複数ヶ所でalignしたいとき： `begin{alignedat}` 環境を使う
 
 ```latex
 \begin{empheq}[left={\vb*{f} = \empheqlbrack}]{equation}\begin{alignedat}{3}

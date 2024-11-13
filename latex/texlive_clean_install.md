@@ -1,4 +1,4 @@
-# TeXLive をクリーンインストールする手順
+# TeXLiveをクリーンインストールする手順
 
 ## Remove old TeXLive
 
@@ -19,8 +19,8 @@ sudo apt autoremove
 
 ## Install latest TeXLive manually
 
-- [TeX Live のインストール](https://texwiki.texjp.org/?Linux#texliveinstall)
-- `*` は TeXLive のバージョン（西暦）を示していることに注意する
+- [TeX Liveのインストール](https://texwiki.texjp.org/?Linux#texliveinstall)
+- `*` はTeXLiveのバージョン（西暦）を示していることに注意する
 
 ```bash
 cd ~/Downloads/

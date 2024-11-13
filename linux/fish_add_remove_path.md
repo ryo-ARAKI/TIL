@@ -1,4 +1,4 @@
-# fish shell における永続的な `PATH` の追加/削除
+# fish shellにおける永続的な `PATH` の追加/削除
 
 ## `PATH` の追加
 

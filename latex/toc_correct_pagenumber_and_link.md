@@ -15,7 +15,7 @@
 ```
 
 とすると，目次には参考文献の **最終ページ番号** が印字されてしまう．
-これは， `\printbibliography` コマンドが参考文献の出力もになっているためである
+これは， `\printbibliography` コマンドが参考文献の出力にもなっているためである
 
 - 参考：[Wrong page number of References in toc (scrreprt)](https://tex.stackexchange.com/a/154744)
   > the `\printbibliography` command causes the entire bibliography to print, so issuing `\addeontentsline` _after_ it will of course have the number of the last page.

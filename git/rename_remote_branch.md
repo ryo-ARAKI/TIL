@@ -2,7 +2,7 @@
 
 - 参考：[How To Rename a Local and Remote Git Branch](https://linuxize.com/post/how-to-rename-local-and-remote-git-branch/)
 
-- remote branch を `<old_name>` から `<new_name>` に変更する
+- remote branchを `<old_name>` から `<new_name>` に変更する
 
 1. 名前を変えたいブランチに移動
    `$ git switch <old_name>`

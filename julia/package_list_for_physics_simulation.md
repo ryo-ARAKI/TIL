@@ -1,4 +1,4 @@
-# 物理シミュレーション/数値計算に役立つ Julia のパッケージリスト
+# 物理シミュレーション/数値計算に役立つJuliaのパッケージリスト
 
 - [JuliaHub の physics タグ](https://juliahub.com/ui/Packages?t=physics)
 - [Julia Observer の Physics カテゴリー](https://juliaobserver.com/categories/Physics)
@@ -13,5 +13,5 @@
 - [BifurcationKit.jl](https://juliahub.com/docs/BifurcationKit/I1INQ/0.1.5/)
   - To find bifurcations in ODEs
 - [CFD_Julia](https://github.com/surajp92/CFD_Julia)
-  - 熱方程式から N-S 方程式までの Julia での実装
-  - やや書き方が古い部分もあるので rewrite している（[CFD_Julia](https://github.com/ryo-ARAKI/CFD_Julia)）
+  - 熱方程式からN-S方程式までのJuliaでの実装
+  - やや書き方が古い部分もあるのでrewriteしている（[CFD_Julia](https://github.com/ryo-ARAKI/CFD_Julia)）

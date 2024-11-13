@@ -1,6 +1,6 @@
 # デフォルトのフォントサイズを変更する
 
-以下をプリアンプるに書けばよい
+以下をプリアンプルに書けばよい
 
 ```latex
 \setbeamerfont{normal text}{size=\large}

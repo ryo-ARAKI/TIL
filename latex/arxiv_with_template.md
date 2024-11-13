@@ -1,16 +1,16 @@
-# 論文雑誌テンプレートを使って arXiv にプレプリントを投稿する際の注意点
+# 論文雑誌テンプレートを使ってarXivにプレプリントを投稿する際の注意点
 
-## Journal of Fluid Mechanics のテンプレート `jfm.cls`
+## Journal of Fluid Mechanicsのテンプレート `jfm.cls`
 
 - 行番号を表示しない
   - `documentclass` から `lineno` オプションを削除する
 - Footer を表示しない
-  - `\corresp{}` コマンドによる email の表示を削除する
-  - `jfm.cls` の footer 定義を削除（下記参照）
+  - `\corresp{}` コマンドによるemailの表示を削除する
+  - `jfm.cls` のfooter定義を削除（下記参照）
 - `.bbl` ファイルを使って参考文献を表示する
   - `\bibliography{}` で `.bib` ではなく `.bbl` ファイル名を指定する
 
-`jfm.cls` で footer が定義されている部分
+`jfm.cls` でfooterが定義されている部分
 
 ```latex
 \def\absfooterflag{\footerflagdefns{Abstract must not spill onto p.2}}%
@@ -69,7 +69,7 @@
 }
 ```
 
-## IOP Publishing のテンプレート `iopart.cls`
+## IOP Publishingのテンプレート `iopart.cls`
 
 `equation*` 環境の上書きを無効化するために
 

@@ -1,6 +1,6 @@
-# BibLaTeX で出版年の括弧に `issue` の情報が入ってしまうのを抑制する
+# BibLaTeXで出版年の括弧に `issue` の情報が入ってしまうのを抑制する
 
-BibLaTeX では `issue` ではなく `number` を使う．
+BibLaTeXでは `issue` ではなく `number` を使う．
 プリアンプルに以下のようなマクロを書いて置換すれば良い．
 
 ```latex

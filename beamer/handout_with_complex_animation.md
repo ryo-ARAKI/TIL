@@ -6,6 +6,6 @@
 \end{frame}
 ```
 
-のように書くと， handout でも 2 枚のスライドが作成される．
+のように書くと，handoutでも2枚のスライドが作成される．
 
 - 参考：[Beamer handout mode: explicitly printing "half-way" frames](https://tex.stackexchange.com/a/184136)

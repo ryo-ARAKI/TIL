@@ -1,4 +1,4 @@
-# Bézier曲線を control points で制御する
+# Bézier曲線をcontrol pointsで制御する
 
 プリアンブルに下記のように書いておき，
 
