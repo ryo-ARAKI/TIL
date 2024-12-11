@@ -79,6 +79,8 @@ Memorandum of Today I Learned (in Japanese)
 <details>
 <summary>Juliaのtipsリスト</summary>
 
+- [build_MPI.jl_with_system_mpiexec.md](https://github.com/ryo-ARAKI/TIL/blob/master/julia/build_MPI.jl_with_system_mpiexec.md)
+  - `MPI.jl` をシステムの `mpiexec` でビルドする
 - [package_list_for_physics_simulation.md](https://github.com/ryo-ARAKI/TIL/blob/master/julia/package_list_for_physics_simulation.md)
   - 物理シミュレーション/数値計算に役立つJuliaのパッケージリスト
 - [performance_improvement.md](https://github.com/ryo-ARAKI/TIL/blob/master/julia/performance_improvement.md)
