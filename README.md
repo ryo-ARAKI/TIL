@@ -166,13 +166,5 @@ Memorandum of Today I Learned (in Japanese)
 - HDFファイル
   - Fortran90からHDFファイル形式への書き込み，読み取り方法
   - HDFファイルをParaViewから読み込む方法
-- LaTeX
-  - 卒論/修論テンプレートで工夫した点
-  - 博士論文のテンプレートで工夫した点
-  - 上記テンプレートで工夫した点
-- Python
-  - 解析コードで工夫した点
-- Julia
-  - 解析コードで工夫した点
 
 </details>
