@@ -62,6 +62,7 @@ Memorandum of Today I Learned (in Japanese)
 <summary>Juliaのtipsリスト</summary>
 
 - [`MPI.jl` をシステムの `mpiexec` でビルドする](https://github.com/ryo-ARAKI/TIL/blob/master/julia/build_MPI.jl_with_system_mpiexec.md)
+- [パッケージを作成する](https://github.com/ryo-ARAKI/TIL/blob/master/julia/create_package.md)
 - [物理シミュレーション/数値計算に役立つJuliaのパッケージリスト](https://github.com/ryo-ARAKI/TIL/blob/master/julia/package_list_for_physics_simulation.md)
 - [Juilaで実装したコードを高速化する方法](https://github.com/ryo-ARAKI/TIL/blob/master/julia/performance_improvement.md)
 - [`Unitful` パッケージを使った単位つき数値の計算のサンプルプログラム](https://github.com/ryo-ARAKI/TIL/blob/master/julia/Unitful.jl)
