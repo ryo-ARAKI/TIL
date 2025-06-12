@@ -35,8 +35,8 @@
   uniquename=false,
   backref=true
 ]{biblatex}
-\addbibresource{./reference.bib}
-\usepackage{/home/raraki/.config/LaTeX/mystyle_biblatex}
+\addbibresource{./biblio.bib}
+\usepackage{//home/ryo/.config/LaTeX/mystyle_biblatex}
 ```
 
 また，参考文献の出力は
