@@ -10,16 +10,16 @@
 \usepackage{physics, empheq}  % For advanced expressions in equations
 \usepackage{hyperref}  % For links
 \hypersetup{  % =====Remove before submission=====
-  colorlinks=true,
-  linkcolor=magenta,
-  citecolor=blue,
-  urlcolor=cyan,
-  pdftitle={PDF title},
-  pdfauthor={ARAKI Ryo}
+    colorlinks=true,
+    linkcolor=magenta,
+    citecolor=blue,
+    urlcolor=cyan,
+    pdftitle={PDF title},
+    pdfauthor={ARAKI Ryo}
 }
 \usepackage{graphicx}  % For figures
 \graphicspath{  % Figure path =====Remove before submission=====
-  {/path/to/figures/}
+    {/path/to/figures/}
 }
 \usepackage[svgnames]{xcolor}  % For additional colors
 \usepackage{siunitx}  % For values with units
@@ -28,12 +28,12 @@
 % Citation with biblatex =====Remove before submission=====
 % ==================================================
 \usepackage[
-  style=ext-authoryear,
-  backend=biber,
-  date=year,
-  articlein=false, isbn=false, doi=false, url=false,
-  uniquename=false,
-  backref=true
+    style=ext-authoryear,
+    backend=biber,
+    date=year,
+    articlein=false, isbn=false, doi=false, url=false,
+    uniquename=false,
+    backref=true
 ]{biblatex}
 \addbibresource{./biblio.bib}
 \usepackage{//home/ryo/.config/LaTeX/mystyle_biblatex}
