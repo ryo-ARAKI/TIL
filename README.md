@@ -20,7 +20,7 @@ Memorandum of Today I Learned (in Japanese)
 
 </details>
 
-## Fortran
+## [Fortran](https://github.com/ryo-ARAKI/TIL/tree/master/fortran)
 
 <details>
 <summary>Fortranのtipsリスト</summary>
@@ -31,7 +31,7 @@ Memorandum of Today I Learned (in Japanese)
 
 </details>
 
-## Git
+## [Git](https://github.com/ryo-ARAKI/TIL/tree/master/git)
 
 <details>
 <summary>Gitのtipsリスト</summary>
@@ -41,7 +41,7 @@ Memorandum of Today I Learned (in Japanese)
 
 </details>
 
-## Gnuplot
+## [Gnuplot](https://github.com/ryo-ARAKI/TIL/tree/master/gnuplot)
 
 <details>
 <summary>Gnuplotのtipsリスト</summary>
@@ -56,7 +56,7 @@ Memorandum of Today I Learned (in Japanese)
 
 </details>
 
-## Julia
+## [Julia](https://github.com/ryo-ARAKI/TIL/tree/master/julia)
 
 <details>
 <summary>Juliaのtipsリスト</summary>
@@ -69,7 +69,7 @@ Memorandum of Today I Learned (in Japanese)
 
 </details>
 
-## LaTeX
+## [LaTeX](https://github.com/ryo-ARAKI/TIL/tree/master/latex)
 
 <details>
 <summary>LaTeXのtipsリスト</summary>
@@ -102,7 +102,7 @@ Memorandum of Today I Learned (in Japanese)
 
 </details>
 
-## Linux
+## [Linux](https://github.com/ryo-ARAKI/TIL/tree/master/linux)
 
 <details>
 <summary>Linuxのtipsリスト</summary>
@@ -114,7 +114,7 @@ Memorandum of Today I Learned (in Japanese)
 
 </details>
 
-## 論文/原稿
+## [論文/原稿](https://github.com/ryo-ARAKI/TIL/tree/master/manuscript)
 
 <details>
 <summary>論文/原稿のtipsリスト</summary>
@@ -123,7 +123,7 @@ Memorandum of Today I Learned (in Japanese)
 
 </details>
 
-## Python
+## [Python](https://github.com/ryo-ARAKI/TIL/tree/master/python)
 
 <details>
 <summary>Pythonのtipsリスト</summary>
@@ -142,7 +142,7 @@ Memorandum of Today I Learned (in Japanese)
 
 </details>
 
-## TikZ
+## [TikZ](https://github.com/ryo-ARAKI/TIL/tree/master/tikz)
 
 <details>
 <summary>TikZのtipsリスト</summary>
