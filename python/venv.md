@@ -8,7 +8,7 @@
    sudo apt install direnv
    echo 'eval "$(direnv hook fish)"' >> ~/.config/fish/config.fish
    ```
-2. 作業するリポジトリで Python の `venv` 環境を `.venv/` に作成する
+2. 作業するリポジトリでPythonの `venv` 環境を `.venv/` に作成する
    ```
    cd /path/to/your/repository/
    python3 -m venv .venv

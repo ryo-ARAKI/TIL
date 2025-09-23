@@ -1,4 +1,4 @@
-# Yes/No の選択に応じた対話的実行
+# Yes/Noの選択に応じた対話的実行
 
 - [Answer to: How do I prompt for Yes/No/Cancel input in a Linux shell script?](https://stackoverflow.com/a/226724)
 

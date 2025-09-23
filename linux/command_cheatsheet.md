@@ -1,7 +1,7 @@
 # Linuxの（やや複雑な）コマンドチートシート
 
 - 前提：Linuxの一般的なコマンド（ `ls` `mv` `cp` `rm` `cd` ...）は理解しており，使えること
-  - 一般的なコマンドについては [Unix/Linux コマンドリファレンス](https://kanemotilevel.com/wp/gazou/unix.pdf) などを参照のこと
+  - 一般的なコマンドについては [Unix/Linuxコマンドリファレンス](https://kanemotilevel.com/wp/gazou/unix.pdf) などを参照のこと
 - 目的：基本的なコマンドのオプションやパイプを使った組み合わせで構成されるやや複雑な（=いちいち覚えていられない）操作のチートシート
 
 ## 一般的なLinuxマシン
@@ -21,7 +21,7 @@
   - `./` 検索起点=現在いるディレクトリ． `/` ならルートディレクトリ． `/home/hoge/huga/` のように指定すれば任意のディレクトリ内を検索できる
   - `-type f` 「ファイル」を検索． `-type d` でディレクトリを検索
 - `|` 上記コマンドで出力される「ファイル名の一覧」をパイプ
-- `wc` テキスト or ファイルの行数，単語数，バイト数を表示． `word count` の略
+- `wc` テキストorファイルの行数，単語数，バイト数を表示． `word count` の略
   - `-l` 行数のみを表示 `--line` と同値
 
 ### `find ./ -name "*.png" | xargs -i cp {} /path/to/dest/` 現在いるディレクトリ以下の階層から`png`の拡張子のファイルを検索し，`./hoge/`以下にコピーする
@@ -55,7 +55,7 @@
 
 ### `find . -type f -exec grep -Iq . {} \; -and -exec sed -i 's/[[:space:]]\+$//' {} +` 現在のディレクトリ以下のファイルに存在するtrailing whitespaceを全て削除する
 
-- `exec grep -Iq . {} \;` ファイルがテキストファイルかどうかをチェックし，バイナリファイルの場合は終了コード 1 を返す
+- `exec grep -Iq . {} \;` ファイルがテキストファイルかどうかをチェックし，バイナリファイルの場合は終了コード1を返す
 - `sed -i 's/[[:space:]]\+$//' {} +` 該当するファイルの行末の空白を削除
   - `-i` ファイルをインプレースで編集
   - `s/[[:space:]]\+$//` 正規表現を使って行末の空白を削除
@@ -76,15 +76,15 @@
   - `user@remote_id:/remote/Dir/` リモートマシンのアカウント名とマシン名，コピー元のディレクトリ
   - `/local/dir/` ローカルのコピー先ディレクトリ
 
-### `du -m -d 1 | sort -rn | head -10` サイズの大きな（一階層までの）ディレクトリ Top10 を降順で表示
+### `du -m -d 1 | sort -rn | head -10` サイズの大きな（一階層までの）ディレクトリTop10を降順で表示
 
 - ホームディレクトリで実行すること
 - `du` ファイル・ディレクトリのサイズ（ディスク使用量）を表示
   - `-m` メガバイト単位で表示
     - `-h` human-readableな形式で表示，しかしこのとき，例えば `289M` -> `2.7G` のような順序での表示となってしまう...
-  - `-d 1` 測定する階層の深さを 1 に指定． `--max-depth=1` と同値
+  - `-d 1` 測定する階層の深さを1に指定． `--max-depth=1` と同値
 - `|sort -rn` 降順でソート
-- `| head -10` 最初の 10 件を表示
+- `| head -10` 最初の10件を表示
 - `du -sch *` カレントディレクトリ直下のファイル・ディレクトリのディスク使用量と，それらの合計を表示
   - `-s` 指定したディレクトリの合計のみ表示． `--summarize` と同値
   - `-c` 全体の合計を表示． `--total` と同値
@@ -95,7 +95,7 @@
 ### `du -h -d 1 | sort -k 2` 同じ階層にあるディレクトリのサイズ一覧をディレクトリ名でソート
 
 - `sort -k 2`
-  - 2 番目の引数（=ディレクトリ名）でソート
+  - 2番目の引数（=ディレクトリ名）でソート
 
 ### `sudo rm /var/lib/apt/lists/lock && sudo rm /var/lib/dpkg/lock` ロック状態になってしまった `dpkg` の解除
 
@@ -107,7 +107,7 @@
 - `sync` メモリのバッファをディスクに書き込む
 - `sysctl` カーネルパラメータを設定する
   - `-w` 変数を指定したパラメータに変更する
-  - `vm.drop_caches=3` 1：ページキャッシュ，2：ダーティキャッシュと inode，3：ページキャッシュ，ダーティキャッシュと inode を破棄する
+  - `vm.drop_caches=3` 1：ページキャッシュ，2：ダーティキャッシュとinode，3：ページキャッシュ，ダーティキャッシュとinodeを破棄する
 
 ### `inkscape --export-pdf=filename.pdf --export-area-drawing --export-text-to-path filename.svg` inkspaceで作成した`svg`ファイルを，テキストをパスとしてPDFに変換
 
@@ -132,7 +132,7 @@
 
 ### `/bin/bash hoge` bash shellでプログラムを実行する
 
-- fish shell で実行すると
+- fish shellで実行すると
   `The file hoge is marked as an executable but could not be run by the operating system.`
   というエラーが出るとき， `/bin/bash` と指定して実行すれば良い
 
@@ -145,7 +145,7 @@
 
 - `ffmpeg`
   - `-r` フレームレート(FPS)を指定
-  - `-vb` video bitrate を設定
+  - `-vb` video bitrateを設定
 
 ### `gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/printer -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output.pdf input.pdf` PDF中の画像サイズを縮小してファイルサイズを小さくする
 
@@ -167,7 +167,7 @@
 
 ### `screen -rd ID` アタッチ済みのセッションに再接続する
 
-### `pip3 list --outdated | grep -v '^\-e' | cut -d = -f 1 | xargs -n1 pip3 install -U` python のパッケージをすべて最新版に更新する
+### `pip3 list --outdated | grep -v '^\-e' | cut -d = -f 1 | xargs -n1 pip3 install -U` pythonのパッケージをすべて最新版に更新する
 
 - ` --format=freeze` オプションをつけるとエラーが出る
 

@@ -1,10 +1,10 @@
 # 物理シミュレーション/数値計算に役立つJuliaのパッケージリスト
 
-- [JuliaHub の physics タグ](https://juliahub.com/ui/Packages?t=physics)
-- [Julia Observer の Physics カテゴリー](https://juliaobserver.com/categories/Physics)
-- [Julia.jl の Physics.md](https://github.com/svaksha/Julia.jl/blob/master/Physics.md)
-- [Julia Packages の Physics カテゴリー](https://juliapackages.com/c/physics)
-- [JuliaPhysics の ecosystem](https://juliaphysics.github.io/latest/ecosystem/)
+- [JuliaHubのphysicsタグ](https://juliahub.com/ui/Packages?t=physics)
+- [Julia ObserverのPhysicsカテゴリー](https://juliaobserver.com/categories/Physics)
+- [Julia.jlのPhysics.md](https://github.com/svaksha/Julia.jl/blob/master/Physics.md)
+- [Julia PackagesのPhysicsカテゴリー](https://juliapackages.com/c/physics)
+- [JuliaPhysicsのecosystem](https://juliaphysics.github.io/latest/ecosystem/)
 
 ## 試してみたいパッケージ/リポジトリのメモ
 

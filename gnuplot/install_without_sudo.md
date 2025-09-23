@@ -44,7 +44,7 @@ gnuplot> plot sin(x)
 
 - [大規模ソフトウェアを手探る](https://doss.eidos.ic.i.u-tokyo.ac.jp/textbook/doss_textbook.pdf)
   - PDF．2章でgnuplotのマニュアルでのインストール手順を詳しく説明してくれている．
-- [(CentOS(6.x)向け)root 権限がないサーバで必要なパッケージを自分でソースビルドして porg でパッケージ管理する](https://qiita.com/Tats_U_/items/9247c53db65ba5d55df9)
+- [(CentOS(6.x)向け)root権限がないサーバで必要なパッケージを自分でソースビルドしてporgでパッケージ管理する](https://qiita.com/Tats_U_/items/9247c53db65ba5d55df9)
 - [Ongoing development of gnuplot](http://www.gnuplot.info/development/)
   - `configure` を作るために `./prepare` を叩く必要があることはここで分かる（なかなか分からなくて時間を溶かした...）
-  - gnuplot のバージョンによっては圧縮ファイルを解凍した段階で `configure` がある．
+  - gnuplotのバージョンによっては圧縮ファイルを解凍した段階で `configure` がある．
