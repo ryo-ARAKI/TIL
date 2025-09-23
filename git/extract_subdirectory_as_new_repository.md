@@ -1,4 +1,4 @@
-# ある Git リポジトリ中のサブディレクトリを新しいリポジトリとして切り出す
+# あるGitリポジトリ中のサブディレクトリを新しいリポジトリとして切り出す
 
 Disclaimer：下記の手順も完璧ではない．この操作をおこなうときは十分調べてから実施すること．
 
@@ -27,7 +27,7 @@ to_be_new_repository/
 
 ## 手順
 
-[参考文献 1](https://docs.github.com/en/get-started/using-git/splitting-a-subfolder-out-into-a-new-repository)にしたがって作業する．
+[参考文献1](https://docs.github.com/en/get-started/using-git/splitting-a-subfolder-out-into-a-new-repository)にしたがって作業する．
 
 1. 新しいcloneを作成する．
 
@@ -71,7 +71,7 @@ to_be_new_repository/
      1. 現在 `to_be_new_repository/` に含まれており
      2. `to_be_new_repository/` が作成される前から存在した
 
-     ファイルの履歴も引き継ぐことができる．なお，より詳細に履歴を引き継ぐファイルを管理したい場合は[参考文献 2](https://making.close.com/posts/splitting-sub-folders-out-into-new-git-repository)を参照せよ．
+     ファイルの履歴も引き継ぐことができる．なお，より詳細に履歴を引き継ぐファイルを管理したい場合は[参考文献2](https://making.close.com/posts/splitting-sub-folders-out-into-new-git-repository)を参照せよ．
 
 3. 新しいGitリポジトリ `new_repository` を作成し，リモートリポジトリのURLを取得する．
 4. `filter-repo` でファイルを整理したリポジトリに新しく作成したリモートリポジトリを設定する．
@@ -90,7 +90,7 @@ to_be_new_repository/
    ```
 
    - 規定のブランチ（ `master` か `main`）に直接はプッシュできない？
-   - 上記のようにしても，履歴が完全に異なるためプルリクエストが作成できない（`add_files and master are entirely different commit histories` と表示される）ため，[参考文献 3](https://stackoverflow.com/a/58657132)を参考に処理した．
+   - 上記のようにしても，履歴が完全に異なるためプルリクエストが作成できない（`add_files and master are entirely different commit histories` と表示される）ため，[参考文献3](https://stackoverflow.com/a/58657132)を参考に処理した．
 
      ```bash
      $ git switch add_files

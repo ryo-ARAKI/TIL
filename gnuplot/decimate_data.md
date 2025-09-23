@@ -11,4 +11,4 @@ plot "data.dat" every i:I:s:S:e:E u 1:2
 - `e` ：終了行
 - `E` ：終了ブロック
 
-- 参考： [GNUPLOT に関するメモ](http://www.kusastro.kyoto-u.ac.jp/~moritani/etc/memo/gnuplot_memo.html)
+- 参考： [GNUPLOTに関するメモ](http://www.kusastro.kyoto-u.ac.jp/~moritani/etc/memo/gnuplot_memo.html)

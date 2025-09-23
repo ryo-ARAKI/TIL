@@ -1,4 +1,4 @@
-# `itemize` 環境中で一部だけ異なる bullet を使う
+# `itemize` 環境中で一部だけ異なるbulletを使う
 
 プリアンプルで
 

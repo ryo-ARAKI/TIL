@@ -5,7 +5,7 @@
   > - `udline.sty` で定義されている `\ul` コマンド
   > - `jumoline.sty` (横組み用) で定義されている `\Underline` コマンド
   > - `jundline.sty` (横組み用) で定義されている `\jundline` コマンド
-  > - `ulem.sty` で定義されている `\uline` コマンド (欧文専用) [下線拡張パッケージ udline.sty](http://minamo.my.coocan.jp/tex/udline.html)
+  > - `ulem.sty` で定義されている `\uline` コマンド (欧文専用) [下線拡張パッケージudline.sty](http://minamo.my.coocan.jp/tex/udline.html)
 
 ## `ulem.sty` の導入と調節
 

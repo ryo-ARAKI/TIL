@@ -4,7 +4,7 @@
 
 - 行番号を表示しない
   - `documentclass` から `lineno` オプションを削除する
-- Footer を表示しない
+- Footerを表示しない
   - `\corresp{}` コマンドによるemailの表示を削除する
   - `jfm.cls` のfooter定義を削除（下記参照）
 - `.bbl` ファイルを使って参考文献を表示する

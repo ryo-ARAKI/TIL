@@ -1,4 +1,4 @@
-# 図を入れ替えるなどのアニメーションを入れているとき， handout にもそれを反映する
+# 図を入れ替えるなどのアニメーションを入れているとき， handoutにもそれを反映する
 
 ```latex
 \begin{frame}<handout:1-2>{Slide title}

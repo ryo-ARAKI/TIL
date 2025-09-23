@@ -7,7 +7,7 @@
 
 ## 解決策
 
-- StackExchange の[Biblatex: submitting to a journal](https://tex.stackexchange.com/a/530638)を参考にする．
+- StackExchangeの[Biblatex: submitting to a journal](https://tex.stackexchange.com/a/530638)を参考にする．
 
 1. プリアンプルでBibLaTeXパッケージを読み込んだ直下に
 
@@ -24,7 +24,7 @@
    ```
 
    を記述する．
-   これで，**PDF ファイル**に
+   これで，**PDFファイル**に
 
    ```latex
    \begin{thebibliography}{99}
@@ -41,7 +41,7 @@
    のような `bibitem` 情報が出力される．
 
 3. プリアンプルにある `\usepackage[...]{biblatex}` ， `\addbibsource{...}` ， `\AtEveryBibitem{...}` などの `biblatex` に関係する設定を削除する．
-   また， `\printbibliography` を 2. の手順で出力された `bibitem` 情報に置換する．
+   また， `\printbibliography` を2. の手順で出力された `bibitem` 情報に置換する．
 4. 著者名のウムラウト記号など，細かな不備を解消する．
 
 ## コメント
