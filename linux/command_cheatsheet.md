@@ -158,6 +158,15 @@
   - `-dQUIET`
   - `-dBATCH`
 
+### `gs -dSAFER -dBATCH -dNOPAUSE -dNoOutputFonts -sDEVICE=pdfwrite -dCompatibilityLevel=1.7 -dPDFSETTINGS=/prepress -sOutputFile=output_outline.pdf input.pdf` PDF中の文字をアウトライン化する
+
+- `gs` ghostscript
+  - `-dNoOutputFonts` 出力PDFにフォントを残さず，文字をパス化する
+  - `-sDEVICE=pdfwrite` PDFとして出力
+  - `-dCompatibilityLevel=1.7` PDFバージョンを指定
+  - `-dPDFSETTINGS=/prepress` 印刷向けの高品質設定
+  - `-sOutputFile=output_outline.pdf` 出力ファイル名を指定
+
 ### `cut -c10-20 file.d | sort -n | uniq -c | sort -nr` `file.d`中の行の先頭から10〜20文字目で繰り返されるパターンを検知し，その頻度とともに表示する
 
 - `cut` ファイルを読み込み，各業から指定した部分を切り出す
